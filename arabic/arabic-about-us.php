@@ -39,7 +39,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!--NAVIGATION ******************************************************************************************-->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
                 <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/logo.jpeg" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
+                        <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
                     </a>
                 
                 <div class="container">
@@ -53,32 +53,32 @@ s0.parentNode.insertBefore(s1,s0);
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
                         
-                            <a class="nav-item nav-link  ts-scroll"  href="index.html" style="font-weight: bolder;">Home </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="about-us.php" style="font-weight: bolder;" >About Us</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="services.php" style="font-weight: bolder;" >Our Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="free-services.php" style="font-weight: bolder;">Free Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="form.html" style="font-weight: bolder;">Contact Us</a>
+                            <a class="nav-item nav-link ts-scroll"  href="arabic.html" style="font-weight: bolder;">الرئيسية </a>&nbsp;&nbsp
+                            <a class="nav-item nav-link active ts-scroll" href="arabic-about-us.php" style="font-weight: bolder;" >من نحن</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="arabic-services.php" style="font-weight: bolder;" >خدماتنا</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="arabic-free-services.php" style="font-weight: bolder;">ضيافتكم</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="arabic-form.html" style="font-weight: bolder;">تواصل معنا</a>
 
                             
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="arabic.html" style="font-weight: bolder;">Arabic</a>
+                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">English</a>
                 </div>
                 <!--end container-->
             </nav>
             <!--end navbar-->
 
             <!--HERO CONTENT ****************************************************************************************-->
-            <div class="container align-self-center">
+            <!--<div class="container align-self-center">
                 <div class="row align-items-center">
                     <div class="col-sm-9">
-                        
-                        <h1>Photography</h1>
-                        <!--<a href="#how-it-works" class="btn btn-light btn-lg ts-scroll">Get Quote</a>-->
+                        <h3 class="ts-opacity__50">Get Organized!</h3>
+                        <h1>All Your Activities In One Place</h1>
+                        <a href="#how-it-works" class="btn btn-light btn-lg ts-scroll">Get Quote</a>
                         <button id="myBtn" class="btn btn-primary" data-bg-color="#baca1c" style="font-size: 22px;">Get Quote</button>
                     <div id="myModal" class="modal">
 
-                        <!-- Modal content -->
+                        
                             <div class="modal-content">
                                 <div class="modal-header" >
                                     <h2 style="text-align: center;" >Accept</h2>
@@ -96,17 +96,17 @@ s0.parentNode.insertBefore(s1,s0);
                                                     <label for="form-contact-name">Your Name *</label>
                                                     <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
                                                 </div>
-                                                 <!--end form-group -->
+                                                
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <label for="form-contact-phone">Your Phone *</label>
                                                     <input type="phone" class="form-control" id="form-contact-phone" name="phone" placeholder="Your Phone number" required>
                                                 </div>
-                                                <!--end form-group -->
+                                                
                                             </div>
                                         </div>
-                                        <!--end col-md-6 col-sm-6 -->
+                                       
                                     
                                         <div class="row">
                                             <div class="col-md-12 col-sm-12">
@@ -114,9 +114,9 @@ s0.parentNode.insertBefore(s1,s0);
                                                     <label for="form-contact-email">Your Email *</label>
                                                     <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
                                                 </div>
-                                            <!--end form-group -->
+                                            
                                             </div>
-                                        <!--end col-md-6 col-sm-6 -->
+                                       
                                     
                                         </div>
 
@@ -126,55 +126,65 @@ s0.parentNode.insertBefore(s1,s0);
                                                     <label for="form-contact-message">Your Message *</label>
                                                     <textarea class="form-control" id="form-contact-message" rows="3" name="message" placeholder="Your Message" required></textarea>
                                                 </div>
-                                            <!--end form-group -->
+                                            
                                             </div>
-                                        <!--end col-md-12 -->
+                                       
                                         </div>
                                     
                                         <div class="form-group clearfix">
                                             <button type="submit" class="btn btn-primary" id="form-contact-submit">Get Quote</button>
                                         </div>
-                                        <!--end form-group -->
+                                        
                                             <div class="form-contact-status"></div>
                                         </form>
-                                        <!--end form-contact -->
+                                    
                                     </div>
                                 </div>
                             
                             </div>
                         </div>
                     </div>
-                    <!--end col-sm-9 col-md-9-->
-                    
+            
+                    <div class="col-sm-3 d-none d-sm-block">
+                        
+                            <img src="assets/img/img-phone.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt="">
+                            
+                        
+                    </div>
+                  
                 </div>
-                <!--end row-->
-            </div>
-            <!--end container-->
+              
+            </div>-->
+          
 
             <div class="ts-background" data-bg-image-opacity=".6" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 
                 
-                    <div class="ts-background-image ts-parallax-element" data-bg-color="" data-bg-image="assets/img/accept-photography.jpg" data-bg-blend-mode="multiply"></div>
+                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-aboutus.jpg" data-bg-blend-mode="multiply" style="top: 0%"></div>
                     
                 
             </div>
 
         </header>
         <!--end #hero-->
-         <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
-
+        <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
 
             <section id="Who-we-are" class="text-center">
                 <div class="container">
                     <br>
-                        <h2>Photography</h2>
+                        <h2>Who We Are</h2>
                     
                     <div class="about">
                         
                             
                                 <p style="color: #000;">
-                                    In today's competitive business industry, high quality product photography is the key to business success. Our expert product photographer's skill and expertise are invaluable. They know the right amount of high colour, lighting, background, clarity, composition and context needed by your product photography to bring up the product's sharpness in the best quality manner. Website is all about expressing good quality pictures and this involves the use of good quality pictures that are professionally captured to increase the sales of the website products and the brand services. With the help of Accept product photographing service, good quality images that are compatible with all browsers can be easily integrated to your website to attract your website visitors and increase click-to-buy.
+                                    We are a new-age digital agency working towards growth. We help startups, small businesses and large companies develop better branding and more relevant digital marketing strategies and tactics to take their business to the next level. Our proven branding approach businesses create brand awareness about their business and build a long-life reputation amongst their customers. 
                                 </p>
+                                <p style="color: #000;">
+                                    We have various expert teams that and marketing specialists that work together to carry out different digital services that include website development and design, Graphic Design, social media advertising, Product photography, Videography and Content Management. 
+                                    Our key objective is to help brand stand out in the global competitive market in order to increase sales and revenue growth through our cutting edge digital services and innovative models. 
+                                </p>
+
                            
                     </div>
                     
@@ -186,62 +196,16 @@ s0.parentNode.insertBefore(s1,s0);
             <section id="how-we-work" >
               
                 <div class="container">
-                    
+                    <h2 class="text-center">Why Choose Accept Digital Agency?</h2>
                       <br>  <br>
                     <div class="row ">
                         <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
                             
-                            <h3>Product Photography</h3>   
+                            
                             <p style="color: #000;">
-                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
-                            </p>
-                            
-                            
-                        </div>
-                        <!--end col-xl-7-->
-                        <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
-                            <div class="px-3">
-                                <img src="assets/img/accept-photography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 
-                            </div>
-                        </div>
-                        <!--end col-xl-5-->
-                        
-                    </div>
-                    <br>
-                    <div class="row ">
-                        <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
-                            <div class="px-3">
-                                <img src="assets/img/accept-photography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                
-                            </div>
-                        </div>
-                        <!--end col-xl-5-->
-                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
-                            
-                            <h3>Food Photography</h3>   
-                            <p style="color: #000;">
-                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
-                            </p>
-                            
-                            
-                        </div>
-                        <!--end col-xl-7-->
-                    </div>
-                    <br>
+                            We are very passionate about what we do. Honestly, we provide clients with high-impact digital services driven by innovation and insight. We spend our time understanding your business and creating an irresistible magnet for your brands to stand out among competitions. Thus, increasing profitability and continued future growth.
 
-                    <div class="row ">
-                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
-                            
-                            <h3>Commercial</h3>   
-                            <p style="color: #000;">
-                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
                             </p>
                             
                             
@@ -249,107 +213,51 @@ s0.parentNode.insertBefore(s1,s0);
                         <!--end col-xl-7-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-photography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                <img src="assets/img/img-size.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 
                             </div>
                         </div>
                         <!--end col-xl-5-->
                         
                     </div>
-                    <!--end row-->
                     <br>
+                    
+                    <br>
+                    <div class="row ">
+                        
+                            <h2 class="text-center">Our service delivery approach</h2>
+                            
+                            <p style="color: #000;">
+                                
+                            At Accept Digital Agency, we implement effective brand strategy with digital initiatives solutions that are effective for your business needs and your customer experiences through:
+                            </p>
+                            <ul style="list-style-type:disc;">
+                                <li>Graphic Design</li>
+                                <li>Social media advertising</li>
+                                <li>Product photography</li>
+                                <li>Videography</li>
+                                <li>Content Management</li>
+                                <li>Website development and design </li>
+                            </ul> 
+                            <p style="color: #000;">
+                            With these proven digital service approaches, we can achieve a high level of productivity while responding flexibly to your needs and market conditions. Whatever your business needs to succeed, we've got you covered!
+
+
+                            </p>
+                            
+                            
+                        
+                        
+                    </div>
+
+                    
+                    
                     <div class="text-center">
-                        <a class="view-works" href="works.php" > View  Our Works</a>
+                        <a class="view-works" href="works.php" > View All Our Works</a>
                     </div>
-                </div>
+                </div><br><br>
                 <!--end container-->
-            </section>
-
-             <section id="What-We-Do" >
-                <div class="container">
-                    <br>
-                        <h2>More Services</h2>
-                    
-                    <div class="row text-center">
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp"> 
-                                <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                </figure>
-                                <a href="social-media.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Social Media Marketting</a>
-                                
-                            </figure>
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-                                <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                </figure>
-                                <a href="graphic-design.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Graphic Design</a>
-                                
-                            </figure>
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                                <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                </figure>
-                                <a href="videography.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Videography</a>
-                                
-                            </figure>
-                        </div>
-                        <!--end col-xl-4-->
-                    </div>
-                    <!--end row-->
-                    <div class="row text-center">
-                        <div class=" col-md-4 ">
-                            
-                                <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                                <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                </figure>
-                                <a href="content-management.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Content Management</a>
-                                
-                            </figure>
-                                
-                            
-                        </div>
-                        <!--end col-xl-4-->
-                        
-                        <div class="col-md-4">
-                            
-                                 <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                                <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                </figure>
-                                <a href="website.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Website Development</a>
-                                
-                            </figure>
-                            
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-md-4">
-                            
-                                 <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                                <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                </figure>
-                                <a href="services.php" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Other Services</a>
-                                
-                            </figure>
-                                
-                            
-                        </div>
-                        <!--end col-xl-4-->
-                    </div>
-                    <!--end row-->
-                    
-                </div>
-                <!--end container-->
-                  <br><br><br>
-                  <div class="text-center text-white py-4">
+                <div class="text-center text-white py-4">
                     
                 <div class="ts-social-icons">
                     <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
@@ -357,7 +265,7 @@ s0.parentNode.insertBefore(s1,s0);
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
                         <i class="fab fa-instagram"></i>
-                    </a>                                         
+                    </a>                       
                     <a href="#" id="linkedin">&nbsp;&nbsp
                         <i class="fab fa-linkedin"></i>
                     </a>
@@ -373,16 +281,14 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="text-center text-black py-4">
                 <small>© 2021 Accept, All Rights Reserved</small>
             </div>
-                  
             </section>
-          
-            <!--END HOW IT WORKS ************************************************************************************-->
             
+
+            
+          
         </main>
-            
-          
-        
-        <!--end #footer-->
+        <!--end #content-->
+
     </div>
 
     <!--end page-->
@@ -441,5 +347,6 @@ window.onclick = function(event) {
 
 </body>
 </html>
+
 
 
