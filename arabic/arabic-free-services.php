@@ -80,7 +80,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         </header>
         
-         <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
+         <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
             <section id="openings" >
                 <div class="container">
                     <br>

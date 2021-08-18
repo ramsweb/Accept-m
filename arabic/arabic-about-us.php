@@ -167,7 +167,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         </header>
         <!--end #hero-->
-        <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
+        <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
 
             <section id="Who-we-are" class="text-center">
                 <div class="container">
