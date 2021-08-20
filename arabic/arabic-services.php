@@ -37,32 +37,39 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
-                <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
-                    </a>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
+                
                 
                 <div class="container">
                     
-                    
-                    
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                    &nbsp;&nbsp
 
                     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                            <a class="nav-item nav-link ts-scroll"  href="arabic.html" style="font-weight: bolder;">الرئيسية </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-about-us.php" style="font-weight: bolder;" >من نحن</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="arabic-services.php" style="font-weight: bolder;" >خدماتنا</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link  ts-scroll" href="arabic-free-services.php" style="font-weight: bolder;">ضيافتكم</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-form.html" style="font-weight: bolder;">تواصل معنا</a>
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link ts-scroll" id="contact" href="arabic-form.html" style="font-weight: bolder; font-size: 20px">تواصل معنا</a>
 
+                            <a class="nav-item nav-link ts-scroll" id="freeservices" href="arabic-free-services.php" style="font-weight: bolder; font-size: 20px">ضيافتكم</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link active ts-scroll"  id="services" href="arabic-services.php" style="font-weight: bolder; font-size: 20px" >خدماتنا</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link ts-scroll" id="aboutus"  href="arabic-about-us.php" style="font-weight: bolder; font-size: 20px" >من نحن</a>&nbsp;&nbsp
+                           
+                            <a class="nav-item nav-link ts-scroll" id="home"  href="index.html" style="font-weight: bolder;font-size: 20px;">الرئيسية </a>&nbsp;&nbsp
                             
+                            </div>
+                           
+                             
+
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">English</a>
+                    <a class="nav-item nav-link ts-scroll" href="english.html" style="font-weight: bolder;font-size: 20px">English</a>
                 </div>
                 <!--end container-->
             </nav>
@@ -73,81 +80,143 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="ts-background" data-bg-image-opacity="1" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 
                 
-                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-services.jpg" data-bg-color="#d9f8fa" data-bg-blend-mode="multiply"></div>
+                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-services-arabic.png"  data-bg-blend-mode="multiply"></div>
                     
                 
             </div>
 
         </header>
         
-         <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
+        <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
             <section id="Our-Services" >
                 <br>
                 <div class="container">
-                    <div class=" text-left">
-                        <h2>Our Services</h2>
-                    </div>
+                    
                     <div class="row ">
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-graphic-designer.jpeg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="graphic-design.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/graphic-design.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
                             </div>
                         </div>
                         <!--end col-xl-5-->
                         <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
                             
-                            <h3>Graphic Design</h3>   
-                            <p>
-                                We work with our client to create a visual face of their business. Every design we create is done to create brand awareness and put your business forward in the best possible light to your customers. We are familiar with the present market for creative designs and knowledgeable with the latest techniques and tools to be successful. 
+                            <h3 dir="rtl" style="float: right;"> ١.   تصميم غرافيك   </h3>  
+                            <br><br> 
+                            <p dir="rtl" style="float: right;">
+                                نحن نعمل مع عملائنا لإنشاء وجه مرئي لأعمالهم. يتم تنفيذ كل تصميم نقوم بإنشائه لخلق الوعي بالعلامة التجارية وتقديم أعمالك في أفضل ضوء ممكن لعملائك. نحن على دراية بالسوق الحالي للتصاميم الإبداعية وعلى دراية بأحدث التقنيات والأدوات لتحقيق النجاح. كن مطمئنًا أن المستوى العالي من الكفاءة والكفاءة لدينا سيؤدي إلى بناء هوية مؤسسية قوية وجذابة لشركتك.
+ 
                             </p>
-                            <p>
-                               Be rest assured that our high level of competency and efficiency will lead to building a strong and attractive corporate identity for your company
+                            <p dir="rtl" >
+                              كن مطمئنًا أن المستوى العالي من الكفاءة والكفاءة لدينا سيبني هوية مؤسسية قوية وجذابة لشركتك.
                             </p>
-                            
+                            <a href="arabic-graphic-design.html" class="seemore" dir="rtl" >المزيد>></a>
                         </div>
                         <!--end col-xl-7-->
                     </div>
                     <!--end row-->
-                    <br>
+                   <br><br>
                     <div class="row">
                         <div class="col-md-5 col-xl-5 " data-animate="ts-fadeInUp"  data-offset="100">
 
-                            <h3>Social Media Marketting</h3>
-                            <p>
-                                We are not only providing social media marketing, but also offer Social Media Optimization. We use this to enhance the online visibility of your business and generate more traffic. Our social Media Optimization services include articles and press release submission, social bookmarking, uploading photos and videos, directory listing, ppt submission, classified advertisements and other related activities.As a professional Social Media Marketing agency, we offer all inclusive services that are designed to give your business real targeted leads and convert them to sale. 
+                            <h3 dir="rtl" style="float: right;"> ٢.   وسائل التسويق عبر التواصل الاجتماعي والتحسين  </h3>
+                            <br><br> 
+                            <p dir="rtl" style="float: right;">
+                              في Accept digital Agency ، نقوم بإنشاء وضع مربح للجانبين لمؤسسات الأعمال من خلال تقديم عرض غزير للشركات في المجالات عبر الإنترنت للعملاء المستهدفين الحقيقيين. باستخدام التقنيات والاستراتيجيات الأكثر ابتكارًا ، والنهج المناسب لمساعدة الشركات على تحقيق أهدافها.
+ 
                             </p>
-                            
+                            <p dir="rtl" >
+                                ننحن نستخدم مواقع الشبكات الاجتماعية مثل Facebook و Twitter و Linkedln وغيرها من المواقع الاجتماعية الشهيرة مع سجلات مستهدفة حقيقية وأطنان من حركة المرور كل يوم باعتبارها الطريقة الأكثر ملاءمة لإخبار جمهور الويب لدينا عن خدماتك أو منتجاتك.
+                            </p>
+                            <a href="arabic-social-media.html" class="seemore" dir="rtl">المزيد>></a>
                         </div>
                         <!--end col-xl-5-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-offset="100" data-delay="0.1s">
                             <div class="px-3">
-                                <img src="assets/img/accept-social-media.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="social-media.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/social-media.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
                             </div>
                         </div>
                         <!--end col-xl-7-->
                     </div>
                     <!--end row-->
+                    <br><br>
+
+                    <div class="row">
+                        <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
+                            <div class="px-3">
+                                <img src="assets/img/photograph.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
+                            </div>
+                        </div>
+                        <!--end col-xl-5-->
+                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
+                            
+                            <h3 dir="rtl" style="float: right;">    ٣.   تصوير المنتج  </h3>  
+                            <br><br>  
+                            <p dir="rtl" style="float: right;" >
+                                ننحن نقدم خدمة تصوير المنتجات المتطورة التي تساعد في الواقع على عرض منتجاتك بأقصى إمكاناتها وزيادة بيع المنتج. نحن نستخدم مجموعة واسعة من المعدات والتقنيات المهنية لضمان صور عالية الجودة للمنتج من أجل تحقيق النتيجة المحددة.
+
+
+
+                            </p>
+                            <p dir="rtl" >
+                               ففي صناعة الأعمال التنافسية اليوم ، يعد التصوير عالي الجودة هو مفتاح نجاح الأعمال. مهارة وخبرة مصورنا الخبير لا تقدر بثمن. بمساعدة قبول خدمة التصوير الفوتوغرافي للمنتج ، يمكن للصور عالية الجودة المتوافقة مع جميع المتصفحات جذب زوارك بسهولة وزيادة النقر للشراء.
+                            </p>
+                            <a href="arabic-photography.html" class="seemore" dir="rtl" >المزيد>></a>
+                        </div>
+                        <!--end col-xl-7-->
+                    </div>
+                    <!--end row-->
+                    <br>
+
+                    <div class="row">
+                        <div class="col-md-5 col-xl-5 " data-animate="ts-fadeInUp"  data-offset="100">
+
+                            <h3 dir="rtl" style="float: right;">    ٤.  التصوير بالفيديو </h3>
+                            <br><br> 
+                            <p dir="rtl"style="float: right;" >
+                               نحن نقدم خدمات إنتاج الفيديو التي تشمل إنشاء المفاهيم وتغطية الفيديو وخدمات تحرير الفيديو كشكل من أشكال تسويق منتجاتك وعرض إعلانات جديدة وإبلاغ خدماتك لعملائك المحتملين. يسمح لك التسويق عبر الفيديو بالتفاعل مع عدد كبير من الأشخاص في أي وقت وأكثر فاعلية في جذب انتباه الجماهير بسرعة.
+ 
+
+                            </p>
+                            <p dir="rtl" >
+                                سواء كنت مهتمًا بإنتاج فيديو تدريبي أو فيديو حدث أو الترويج لسلع أو خدمات معينة ، فنحن على استعداد لمساعدتك في أي من برامج إنتاج الفيديو أو الأحداث الخاصة بك. لدينا المعرفة والخبرة في البرمجة النصية ، وإعداد الصور وإجراء المقابلات أيضًا.
+
+
+                            </p>
+                            <a href="arabic-videography.html" class="seemore" dir="rtl">المزيد>></a>
+                        </div>
+                        <!--end col-xl-5-->
+                        <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-offset="100" data-delay="0.1s">
+                            <div class="px-3">
+                                <img src="assets/img/videohgraph.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                            </div>
+                        </div>
+                        <!--end col-xl-7-->
+                    </div>
+                    <!--end row-->
+                    <br>
                     <br>
 
                     <div class="row">
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-photography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="photography.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/content.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                             </div>
                         </div>
                         <!--end col-xl-5-->
                         <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
                             
-                            <h3>Photography</h3>   
-                            <p>
-                                We also help ecommerce companies that need to extend their customer profile and want to re-gain their loyal clientele by portraying a proper image of their products. This type of product photography helps in making the products look attractive to their consumers and also compel them to buy.
-
+                            <h3 dir="rtl" style="float: right;">  ٥.  ادارة المحتوى</h3>   
+                            <br><br> 
+                            <p dir="rtl" style="float: right;">
+                              نحن شركة إدارة محتوى معترف بها في دبي توفر محتوى عالي الجودة يجذب الزوار إلى موقع الويب الخاص بك ويساعدك على الارتقاء في سلم SERPs بعيد المنال باستخدام أفضل ممارسات تحسين محركات البحث مثل البحث عن الكلمات الرئيسية للحصول على ترتيب أعلى.
                             </p>
-                           
-                            
+                            <p dir="rtl" >
+                              تساعد خدمة إدارة المحتوى الخاصة بنا على زيادة التحويلات والرؤية من خلال استخدام تقنيات مثل البصيرة التنافسية وسلوك المستخدم. يمكننا مساعدتك في تحديد محتوى عملك وإنشاء محتوى عالي الجودة لتحسين ظهور علامتك التجارية وتعزيز الاتصال العاطفي مع جمهورك. </p>
+                            <a href="arabic-content-management.html" class="seemore" dir="rtl">المزيد>></a>
                         </div>
                         <!--end col-xl-7-->
                     </div>
@@ -157,64 +226,21 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="row">
                         <div class="col-md-5 col-xl-5 " data-animate="ts-fadeInUp"  data-offset="100">
 
-                            <h3>Videography</h3>
-                            <p>
-                                As a professional videography company, we have the editing equipment and skills to properly craft the feel and message of your video in a professional way with high quality resolution. Businesses are now using video media to increase product or brand awareness and training employees with business messages and strategies. 
+                            <h3 dir="rtl" style="float: right;">    ٦. تطوير وتصميم المواقع الإلكترونية  </h3>
+                            <br><br> 
+                            <p dir="rtl" style="float: right;" >
+                               Accept Digital Agency هي شركة تطوير محترفة وموثوقة وقفة واحدة توفر لك حلولاً دقيقة لجميع احتياجات تصميم وتطوير الويب في الوقت الفعلي. نوفر لك موقعًا إلكترونيًا وظيفيًا لعملك يعزز التفاعل مع المزيد من المستخدمين المحتملين وفي نفس الوقت يلتقط سوقًا واسعًا بينما يحول الزوار إلى عملاء.
 
                             </p>
-                            <p>
-                                There isn't a better time to start better than now! Start using videography to attract people to your business in a very smart and cost effective way.
+                             <p dir="rtl" >
+                              نحن نستخدم جميع التقنيات المتقدمة ولغات البرمجة لتطوير وصيانة جميع أنواع المواقع سواء كانت مواقع التجارة الإلكترونية أو مواقع المدونات لتكون موجهة نحو النتائج.
                             </p>
+                            <a href="arabic-website" class="seemore"  dir="rtl">المزيد>></a>
                         </div>
                         <!--end col-xl-5-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-offset="100" data-delay="0.1s">
                             <div class="px-3">
-                                <img src="assets/img/accept-videography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="videography.html" class="graphic-design" >see more>></a>
-                            </div>
-                        </div>
-                        <!--end col-xl-7-->
-                    </div>
-                    <!--end row-->
-                    <br>
-                    <br>
-
-                    <div class="row">
-                        <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
-                            <div class="px-3">
-                                <img src="assets/img/accept-content-managment.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="content-management.html" class="graphic-design" >see more>></a>
-                            </div>
-                        </div>
-                        <!--end col-xl-5-->
-                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
-                            
-                            <h3>Digital Marketting</h3>   
-                            <p>
-                                We are dedicated to providing the best content writing and management service in Dubai and relentlessly focused on improving our already high standards in order to deliver the utmost quality and exclusive services. With the ever-evolving nature of the internet, we strive to not only be recognized as the best content management company in Dubai but to make a difference and contribution to the progression of online business. Reach us today and let help you with content management services that will fuel your business growth in innumerable ways.
-                            </p>
-                            
-                        </div>
-                        <!--end col-xl-7-->
-                    </div>
-                    <!--end row-->
-                    <br>
-
-                    <div class="row">
-                        <div class="col-md-5 col-xl-5 " data-animate="ts-fadeInUp"  data-offset="100">
-
-                            <h3>Web Development</h3>
-                            <p>
-                               Whether you are a small business or large business looking for full web development and design for your company in UAE, Accept Digital Agency is always at your service to offer you a full-service web development and designing with top-class marketing.
-
-                            </p>
-                            
-                        </div>
-                        <!--end col-xl-5-->
-                        <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-offset="100" data-delay="0.1s">
-                            <div class="px-3">
-                                <img src="assets/img/accept-website.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="website.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/web-dev.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                             </div>
                         </div>
                         <!--end col-xl-7-->
@@ -224,7 +250,7 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <!--end container-->
                 <div class="text-center">
-                        <a class="view-works" href="works.php" > View All Our Works</a>
+                        <a class="view-works" href="works.php" > عرض أعمالنا</a>
                 
                 </div><br><br>
                 <!--end container-->

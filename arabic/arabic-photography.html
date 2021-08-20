@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -37,120 +38,65 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
-                <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/logo.jpeg" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
-                    </a>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
+                
                 
                 <div class="container">
                     
-                    
-                    
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                    &nbsp;&nbsp
 
                     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                            <a class="nav-item nav-link ts-scroll"  href="arabic.html" style="font-weight: bolder;">الرئيسية </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-about-us.php" style="font-weight: bolder;" >من نحن</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="arabic-services.php" style="font-weight: bolder;" >خدماتنا</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link  ts-scroll" href="arabic-free-services.php" style="font-weight: bolder;">ضيافتكم</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-form.html" style="font-weight: bolder;">تواصل معنا</a>
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link ts-scroll" id="contact" href="arabic-form.html" style="font-weight: bolder; font-size: 20px">تواصل معنا</a>
 
+                            <a class="nav-item nav-link ts-scroll" id="freeservices" href="arabic-free-services.php" style="font-weight: bolder; font-size: 20px">ضيافتكم</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link active ts-scroll"  id="services" href="arabic-services.php" style="font-weight: bolder; font-size: 20px" >خدماتنا</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link ts-scroll" id="aboutus"  href="arabic-about-us.php" style="font-weight: bolder; font-size: 20px" >من نحن</a>&nbsp;&nbsp
+                           
+                            <a class="nav-item nav-link ts-scroll" id="home"  href="index.html" style="font-weight: bolder;font-size: 20px;">الرئيسية </a>&nbsp;&nbsp
                             
+                            </div>
+                           
+                             
+
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">English</a>
+                    <a class="nav-item nav-link ts-scroll" href="english.html" style="font-weight: bolder;font-size: 20px">English</a>
                 </div>
                 <!--end container-->
             </nav>
-            <!--end navbar-->
 
             <!--HERO CONTENT ****************************************************************************************-->
-            <div class="container align-self-center">
-                <div class="row align-items-center">
-                    <div class="col-sm-9">
+             <div class="container align-self-center">
+                <div class="row ">
+                    
+                   
                         
-                        <h1>Photography</h1>
+                        <div class="hero-btn01">
+                        
+                        
                         <!--<a href="#how-it-works" class="btn btn-light btn-lg ts-scroll">Get Quote</a>-->
-                        <button id="myBtn" class="btn btn-primary" data-bg-color="#baca1c" style="font-size: 22px;">Get Quote</button>
-                    <div id="myModal" class="modal">
-
-                        <!-- Modal content -->
-                            <div class="modal-content">
-                                <div class="modal-header" >
-                                    <h2 style="text-align: center;" >Accept</h2>
-                                        <span class="close">&times;</span>
-                                
-                                </div>
-                                <div class="modal-body">
-                                    <div class="col-md-12 ">
-                                
-                                        <p style="font-size: 1rem;"> Discuss Your Project With Us</p>
-                                        <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="assets/php/email.php">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-name">Your Name *</label>
-                                                    <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
-                                                </div>
-                                                 <!--end form-group -->
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-phone">Your Phone *</label>
-                                                    <input type="phone" class="form-control" id="form-contact-phone" name="phone" placeholder="Your Phone number" required>
-                                                </div>
-                                                <!--end form-group -->
-                                            </div>
-                                        </div>
-                                        <!--end col-md-6 col-sm-6 -->
-                                    
-                                        <div class="row">
-                                            <div class="col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-email">Your Email *</label>
-                                                    <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
-                                                </div>
-                                            <!--end form-group -->
-                                            </div>
-                                        <!--end col-md-6 col-sm-6 -->
-                                    
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-message">Your Message *</label>
-                                                    <textarea class="form-control" id="form-contact-message" rows="3" name="message" placeholder="Your Message" required></textarea>
-                                                </div>
-                                            <!--end form-group -->
-                                            </div>
-                                        <!--end col-md-12 -->
-                                        </div>
-                                    
-                                        <div class="form-group clearfix">
-                                            <button type="submit" class="btn btn-primary" id="form-contact-submit">Get Quote</button>
-                                        </div>
-                                        <!--end form-group -->
-                                            <div class="form-contact-status"></div>
-                                        </form>
-                                        <!--end form-contact -->
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <!--end col-sm-9 col-md-9-->
+                        <a  class="temp" href="form.html" data-bg-image="assets/img/button02.png"> Get Quote</a>
+                        
+                   
+                    
+                    
+                </div>
+                <!--end row-->
                     
                 </div>
                 <!--end row-->
             </div>
             <!--end container-->
-
             <div class="ts-background" data-bg-image-opacity=".6" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 
                 
@@ -265,7 +211,7 @@ s0.parentNode.insertBefore(s1,s0);
                 <!--end container-->
             </section>
 
-             <section id="What-We-Do" >
+            <section id="What-We-Do" >
                 <div class="container">
                     <br>
                         <h2>More Services</h2>
@@ -274,9 +220,9 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="col-sm-6 col-md-4 col-xl-4">
                             <figure data-animate="ts-fadeInUp"> 
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServicesocialmedia.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
-                                <a href="social-media.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Social Media Marketting</a>
+                                <a href="arabic-social-media.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Social Media Marketting</a>
                                 
                             </figure>
                         </div>
@@ -284,9 +230,9 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="col-sm-6 col-md-4 col-xl-4">
                             <figure data-animate="ts-fadeInUp" data-delay="0.1s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceGraphicDesign.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
-                                <a href="graphic-design.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Graphic Design</a>
+                                <a href="arabic-graphic-design.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Graphic Desin</a>
                                 
                             </figure>
                         </div>
@@ -294,9 +240,9 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
                             <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceVideography.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
-                                <a href="videography.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Videography</a>
+                                <a href="arabic-videography.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Videography</a>
                                 
                             </figure>
                         </div>
@@ -308,9 +254,9 @@ s0.parentNode.insertBefore(s1,s0);
                             
                                 <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceDigitalMarketing.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
-                                <a href="content-management.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Content Management</a>
+                                <a href="arabic-content-management.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Digital Marketting</a>
                                 
                             </figure>
                                 
@@ -322,9 +268,9 @@ s0.parentNode.insertBefore(s1,s0);
                             
                                  <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceWebsite-Development.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
-                                <a href="website.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Website Development</a>
+                                <a href="arabic-website.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Website Development</a>
                                 
                             </figure>
                             
@@ -334,9 +280,9 @@ s0.parentNode.insertBefore(s1,s0);
                             
                                  <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceOtherServices.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
-                                <a href="services.php" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Other Services</a>
+                                <a href="arabic-services.php" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Other Services</a>
                                 
                             </figure>
                                 
@@ -349,7 +295,9 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <!--end container-->
                   <br><br><br>
-                  <div class="text-center text-white py-4">
+                
+                <!--end container-->
+                <div class="text-center text-white py-4">
                     
                 <div class="ts-social-icons">
                     <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
@@ -357,7 +305,7 @@ s0.parentNode.insertBefore(s1,s0);
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
                         <i class="fab fa-instagram"></i>
-                    </a>                                         
+                    </a>                                      
                     <a href="#" id="linkedin">&nbsp;&nbsp
                         <i class="fab fa-linkedin"></i>
                     </a>
@@ -375,6 +323,7 @@ s0.parentNode.insertBefore(s1,s0);
             </div>
                   
             </section>
+          
           
             <!--END HOW IT WORKS ************************************************************************************-->
             

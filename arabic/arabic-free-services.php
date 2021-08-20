@@ -37,32 +37,39 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-default navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
-                <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
-                    </a>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
+                
                 
                 <div class="container">
                     
-                    
-                    
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                    &nbsp;&nbsp
 
                     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                            <a class="nav-item nav-link ts-scroll"  href="arabic.html" style="font-weight: bolder;">الرئيسية </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-about-us.php" style="font-weight: bolder;" >من نحن</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-services.php" style="font-weight: bolder;" >خدماتنا</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="arabic-free-services.php" style="font-weight: bolder;">ضيافتكم</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-form.html" style="font-weight: bolder;">تواصل معنا</a>
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link ts-scroll" id="contact" href="arabic-form.html" style="font-weight: bolder; font-size: 20px">تواصل معنا</a>
 
+                            <a class="nav-item nav-link ts-scroll" id="freeservices" href="arabic-free-services.php" style="font-weight: bolder; font-size: 20px">ضيافتكم</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link active ts-scroll"  id="services" href="arabic-services.php" style="font-weight: bolder; font-size: 20px" >خدماتنا</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link ts-scroll" id="aboutus"  href="arabic-about-us.php" style="font-weight: bolder; font-size: 20px" >من نحن</a>&nbsp;&nbsp
+                           
+                            <a class="nav-item nav-link ts-scroll" id="home"  href="index.html" style="font-weight: bolder;font-size: 20px;">الرئيسية </a>&nbsp;&nbsp
                             
+                            </div>
+                           
+                             
+
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">English</a>
+                    <a class="nav-item nav-link ts-scroll" href="english.html" style="font-weight: bolder;font-size: 20px">English</a>
                 </div>
                 <!--end container-->
             </nav>
@@ -73,7 +80,7 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="ts-background" data-bg-image-opacity="1" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 
                 
-                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-freeservices.jpg" data-bg-color="#d9f8fa" data-bg-blend-mode="multiply"></div>
+                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/free-services.png" data-bg-blend-mode="multiply"></div>
                     
                 
             </div>
@@ -84,7 +91,7 @@ s0.parentNode.insertBefore(s1,s0);
             <section id="openings" >
                 <div class="container">
                     <br>
-                        <h2>Our Offers</h2>
+                        
                     
                     <div class="about">
                         
@@ -103,40 +110,42 @@ s0.parentNode.insertBefore(s1,s0);
                     <table class="table table-hover">
                         <tbody>
                             <tr>
+                                <td><a href="claim.html" class="view-works" >Claim</a></td>
+                                <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
                                 <td>service 01</td>
-                                <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
+                                
+                                
                             </tr>
                             <tr>
-                                <td>Service 02</td>
+                                <td><a href="claim.html" class="view-works" >Claim</a></td>
                                 <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
                                     Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
+                                <td>service 02</td>
                             </tr>
                             <tr>
-                                <td>Service 03</td>
+                                <td><a href="claim.html" class="view-works" >Claim</a></td>
                                 <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
                                     Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
+                                <td>service 03</td>
                             </tr>
                             <tr>
-                                <td>Service 04</td>
+                                <td><a href="claim.html" class="view-works" >Claim</a></td>
                                 <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
                                     Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
+                                <td>service 04</td>
                             </tr>
                             <tr>
-                                <td>Service 05</td>
+                                <td><a href="claim.html" class="view-works" >Claim</a></td>
                                 <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
                                     Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
+                                <td>service 05</td>
                             </tr>
                             <tr>
-                                <td>Service 06</td>
+                                <td><a href="claim.html" class="view-works" >Claim</a></td>
                                 <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
                                     Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
+                                <td>service 06</td>
                             </tr>
                         </tbody>
                     </table>

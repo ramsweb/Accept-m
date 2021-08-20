@@ -34,88 +34,73 @@ s0.parentNode.insertBefore(s1,s0);
         <!--*********************************************************************************************************-->
         <!--************ HERO ***************************************************************************************-->
         <!--*********************************************************************************************************-->
-        <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg">
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
-                <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
-                    </a>
+        <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
+                
                 
                 <div class="container">
                     
-                    
-                    
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                    &nbsp;&nbsp
 
                     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                           <a class="nav-item nav-link ts-scroll"  href="arabic.html" style="font-weight: bolder;">الرئيسية </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-about-us.php" style="font-weight: bolder;" >من نحن</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-services.php" style="font-weight: bolder;" >خدماتنا</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-free-services.php" style="font-weight: bolder;">ضيافتكم</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="arabic-form.html" style="font-weight: bolder;">تواصل معنا</a>
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link active ts-scroll" id="contact" href="arabic-form.html" style="font-weight: bolder; font-size: 20px">تواصل معنا</a>
 
+                            <a class="nav-item nav-link ts-scroll" id="freeservices" href="arabic-free-services.php" style="font-weight: bolder; font-size: 20px">ضيافتكم</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link ts-scroll"  id="services" href="arabic-services.php" style="font-weight: bolder; font-size: 20px" >خدماتنا</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link ts-scroll" id="aboutus"  href="arabic-about-us.php" style="font-weight: bolder; font-size: 20px" >من نحن</a>&nbsp;&nbsp
+                           
+                            <a class="nav-item nav-link  ts-scroll" id="home"  href="index.html" style="font-weight: bolder;font-size: 20px;">الرئيسية </a>&nbsp;&nbsp
                             
+                            </div>
+                           
+                             
+
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">English</a>
+                    <a class="nav-item nav-link ts-scroll" href="english.html" style="font-weight: bolder;font-size: 20px">English</a>
                 </div>
                 <!--end container-->
             </nav>
+            <!--end navbar-->
             <br><br>
-        <section id="contact" class="ts-separate-bg-element" data-bg-image="assets/img/BACKGROUND2-2.jpg" data-bg-image-opacity="0.8">
+        <section id="contact" class="ts-separate-bg-element" data-bg-image="assets/img/BACKGROUND4.jpg" data-bg-image-opacity="0.8">
            <div class="container">
             <br><br>
                 <div class="text-center">
                     <h2>أخبر أكسبت للعمليات التسويقية عن مشروعك</h2>
                 </div><br><br>
                 <div class="ts-box mb-0 p-5 ts-mt__n-10">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h3 style="color: #000" >تواصل معنا الان </h3>
+                    <h3 class="text-center" style="color: #000" >تواصل معنا الان </h3>
                                 <br>
-                                <address style="color: #000">
-                                    <figure>
-                                        #2901, Shining Tower,
-                                        Khalidhiya,
-                                        AbuDbahi UAE.
-                                    </figure>
-                                    <br>
-                                    <figure>
-                                        <div class="font-weight-bold ">البريد:</div>
-                                        <a href="mailto:info@accept-m.com" style="color:#000">info@accept-m.com</a>
-                                    </figure>
-                                    <figure>
-                                        <div class="font-weight-bold">الهاتف:</div>
-                                        <a  href="tel:0561024332" style="color:#000">0561024332</a>
-                                    </figure>
-                                    <figure>
-                                        <div class="font-weight-bold">Whatsapp:</div>
-                                        <a  href="tel:0561024332" style="color:#000">0561024332</a>
-                                    </figure>
-                                    
-                                </address>
-                                <!--end address-->
-                            </div>
-                            <!--end col-md-4-->
-                           <div class="col-md-8">
-                                <h4>هي شركة متخصصة في مجال الإعلانات وتصميم مواقع الانترنت والأنشطة المرتبطة بالتسويق، التصميم، الطباعة والنشر، الهدايا الاعلانية، الوسائط الإعلانية المتعددة والعلاقات العامة، وتتبع الشركة نهجاً تكاملياً في مجموعة الخدمات التي تقدمها.</h4>
+                    <div class="row">
+                        
+                            <div class="col-md-7">
+                                
                                 <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="assets/php/email.php">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6">
                                             <div class="form-group">
-                                                <label for="form-contact-name">الاسم *</label>
-                                                <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
+                                                <label for="form-contact-phone" class="font-weight-bold " style="float:right;">رقم الهاتف *</label>
+                                                <input type="phone" class="form-control" id="form-contact-phone" name="phone" placeholder="رقم هاتفك" required>
                                             </div>
+                                            
                                             <!--end form-group -->
                                         </div>
                                         <!--end col-md-6 col-sm-6 -->
                                         <div class="col-md-6 col-sm-6">
                                             <div class="form-group">
-                                                <label for="form-contact-phone">رقم الهاتف *</label>
-                                                <input type="phone" class="form-control" id="form-contact-phone" name="phone" placeholder="Your Phone" required>
+                                                <label for="form-contact-name" class="font-weight-bold " style="float:right;">الاسم *</label>
+                                                <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="اسمك" required>
                                             </div>
                                             <!--end form-group -->
                                         </div>
@@ -125,8 +110,8 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12">
                                             <div class="form-group">
-                                                <label for="form-contact-email">البريد الإلكتروني *</label>
-                                                <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
+                                                <label for="form-contact-email" class="font-weight-bold " style="float:right;">البريد الإلكتروني *</label>
+                                                <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="بريدك الالكتروني" required>
                                             </div>
                                             <!--end form-group -->
                                         </div>
@@ -135,8 +120,8 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="form-contact-message">الرسالة *</label>
-                                                <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Your Message" required></textarea>
+                                                <label for="form-contact-message" class="font-weight-bold " style="float:right;">الرسالة *</label>
+                                                <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="النص"   required></textarea>
                                             </div>
                                             <!--end form-group -->
                                         </div>
@@ -144,23 +129,75 @@ s0.parentNode.insertBefore(s1,s0);
                                     </div>
                                     <!--end row -->
                                     <div class="form-group clearfix">
-                                        <button type="submit" class="btn btn-primary float-right" id="form-contact-submit" data-bg-image="assets/img/BACKGROUND4.jpg">Send a Message</button>
+                                        <button type="submit" class="btn btn-primary float-right" id="form-contact-submit" data-bg-image="assets/img/BACKGROUND4.jpg">أرسل الرسالة </button>
                                     </div>
                                     <!--end form-group -->
                                     <div class="form-contact-status"></div>
                                 </form>
                                 <!--end form-contact -->
                             </div>
+                            <div class="col-md-5">
+                                <br>
+                                <address style="color: #000">
+                                    <figure>
+                                        <div class="row">
+                                            <div class="col-sm-9">
+                                                <div class="font-weight-bold " style="float: right;">:الموقع</div><br>
+                                                <div style= "color:#000;float: right;"> ابوظبي - الخالدية - الابراج الساطعة </div>
+                                                <a  href="https://goo.gl/maps/om2vMyFNwiJkfEKs6" style="color:#000; float: right;">https://goo.gl/maps/om2vMyFNwiJkfEKs6</a>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <i class="fas fa-map-marker-alt" style='font-size:50px;color: #233c74;'></i>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                    <br><br>
+                                    <figure>
+                                        <div class="row">
+                                            <div class="col-sm-9">
+                                                <div class="font-weight-bold "style="float: right">:البريد</div><br>
+                                                <a href="mailto:info@accept-m.com" style="color:#000; float: right">info@accept-m.com</a>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <i class="fas fa-envelope-square" style='font-size:50px;color: #233c74;'></i>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                    <br><br>
+                                    <figure>
+                                        <div class="row">
+                                            <div class="col-sm-9">
+                                                <div class="font-weight-bold" style="float:right;">:الهاتف</div><br>
+                                                <a  href="tel:0561024332" style="color:#000; float:right;">+971 561024332</a>
+                                            </div>
+                                            <div class="col-sm-3">
+
+                                                <i class="fa fa-phone" style='font-size:50px;color: #233c74;'></i> 
+                                            </div>
+                                        </div>
+                                        
+                                    </figure>
+                                    <br><br>
+                                    <figure>
+                                        <div class="row">
+                                            <div class="col-sm-9">
+                                                <div class="font-weight-bold" style="float:right;">:ئل واتساب  </div><br>
+                                                <a  href="wa.me/qr/5B7H3FCLZ2AOE1" style="color:#000; float:right;">+971 561024332</a>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <i class="fab fa-whatsapp" style='font-size:50px;color: #233c74;'></i> 
+                                            </div>
+                                        </div>
+                                    </figure>
+                                    
+                                </address>
+                                <!--end address-->
+                            </div>
+                            <!--end col-md-4-->
                         </div>
                         <!--end row-->
                     </div>
                     <!--end ts-box-->
-                    <br><br>
-                    <div class="text-center">
-                    <a  class="temp" href="index.html"> Back</a>
-                    
-            <!--end container-->
-                </div>
                     
                 </div>
                 <!--end container-->
@@ -189,6 +226,7 @@ s0.parentNode.insertBefore(s1,s0);
                 <small>© 2021 Accept, All Rights Reserved</small>
             </div>
             </section>
+          
           
         </main>
         <!--end #content-->

@@ -47,7 +47,7 @@
                             
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">العربية</a>
+                    <a class="nav-item nav-link ts-scroll" href="english.html" style="font-weight: bolder;">العربية</a>
                 </div>
                 <!--end container-->
             </nav>

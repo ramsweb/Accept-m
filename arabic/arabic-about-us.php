@@ -37,130 +37,50 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
-                <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
-                    </a>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
+                
                 
                 <div class="container">
                     
-                    
-                    
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                    &nbsp;&nbsp
 
                     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                            <a class="nav-item nav-link ts-scroll"  href="arabic.html" style="font-weight: bolder;">الرئيسية </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="arabic-about-us.php" style="font-weight: bolder;" >من نحن</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-services.php" style="font-weight: bolder;" >خدماتنا</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-free-services.php" style="font-weight: bolder;">ضيافتكم</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="arabic-form.html" style="font-weight: bolder;">تواصل معنا</a>
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link ts-scroll" id="contact" href="arabic-form.html" style="font-weight: bolder; font-size: 20px">تواصل معنا</a>
 
+                            <a class="nav-item nav-link ts-scroll" id="freeservices" href="arabic-free-services.php" style="font-weight: bolder; font-size: 20px">ضيافتكم</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link ts-scroll"  id="services" href="arabic-services.php" style="font-weight: bolder; font-size: 20px" >خدماتنا</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link active ts-scroll" id="aboutus"  href="arabic-about-us.php" style="font-weight: bolder; font-size: 20px" >من نحن</a>&nbsp;&nbsp
+                           
+                            <a class="nav-item nav-link  ts-scroll" id="home"  href="index.html" style="font-weight: bolder;font-size: 20px;">الرئيسية </a>&nbsp;&nbsp
                             
+                            </div>
+                           
+                             
+
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">English</a>
+                    <a class="nav-item nav-link ts-scroll" href="english.html" style="font-weight: bolder;font-size: 20px">English</a>
                 </div>
                 <!--end container-->
             </nav>
             <!--end navbar-->
 
-            <!--HERO CONTENT ****************************************************************************************-->
-            <!--<div class="container align-self-center">
-                <div class="row align-items-center">
-                    <div class="col-sm-9">
-                        <h3 class="ts-opacity__50">Get Organized!</h3>
-                        <h1>All Your Activities In One Place</h1>
-                        <a href="#how-it-works" class="btn btn-light btn-lg ts-scroll">Get Quote</a>
-                        <button id="myBtn" class="btn btn-primary" data-bg-color="#baca1c" style="font-size: 22px;">Get Quote</button>
-                    <div id="myModal" class="modal">
-
-                        
-                            <div class="modal-content">
-                                <div class="modal-header" >
-                                    <h2 style="text-align: center;" >Accept</h2>
-                                        <span class="close">&times;</span>
-                                
-                                </div>
-                                <div class="modal-body">
-                                    <div class="col-md-12 ">
-                                
-                                        <p style="font-size: 1rem;"> Discuss Your Project With Us</p>
-                                        <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="assets/php/email.php">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-name">Your Name *</label>
-                                                    <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-phone">Your Phone *</label>
-                                                    <input type="phone" class="form-control" id="form-contact-phone" name="phone" placeholder="Your Phone number" required>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                       
-                                    
-                                        <div class="row">
-                                            <div class="col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-email">Your Email *</label>
-                                                    <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
-                                                </div>
-                                            
-                                            </div>
-                                       
-                                    
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-message">Your Message *</label>
-                                                    <textarea class="form-control" id="form-contact-message" rows="3" name="message" placeholder="Your Message" required></textarea>
-                                                </div>
-                                            
-                                            </div>
-                                       
-                                        </div>
-                                    
-                                        <div class="form-group clearfix">
-                                            <button type="submit" class="btn btn-primary" id="form-contact-submit">Get Quote</button>
-                                        </div>
-                                        
-                                            <div class="form-contact-status"></div>
-                                        </form>
-                                    
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="col-sm-3 d-none d-sm-block">
-                        
-                            <img src="assets/img/img-phone.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt="">
-                            
-                        
-                    </div>
-                  
-                </div>
-              
-            </div>-->
           
 
             <div class="ts-background" data-bg-image-opacity=".6" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 
                 
-                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-aboutus.jpg" data-bg-blend-mode="multiply" style="top: 0%"></div>
+                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-aboutus-arabic.png" data-bg-blend-mode="multiply" style="top: 0%"></div>
                     
                 
             </div>
@@ -172,17 +92,23 @@ s0.parentNode.insertBefore(s1,s0);
             <section id="Who-we-are" class="text-center">
                 <div class="container">
                     <br>
-                        <h2>Who We Are</h2>
+                        <h2>من نحن</h2>
                     
                     <div class="about">
                         
                             
                                 <p style="color: #000;">
-                                    We are a new-age digital agency working towards growth. We help startups, small businesses and large companies develop better branding and more relevant digital marketing strategies and tactics to take their business to the next level. Our proven branding approach businesses create brand awareness about their business and build a long-life reputation amongst their customers. 
+                                    نحن وكالة رقمية حديثة تعمل من أجل النمو. نحن نساعد الشركات الناشئة والشركات الصغيرة والشركات الكبيرة على تطوير علامات تجارية أفضل واستراتيجيات وتكتيكات تسويق رقمية أكثر ملاءمة لنقل أعمالهم إلى المستوى التالي. تخلق الأعمال التجارية التي أثبتت كفاءتها في مجال العلامات التجارية وعيًا بالعلامة التجارية حول أعمالها وتبني سمعة طويلة الأمد بين عملائها.
+
                                 </p>
                                 <p style="color: #000;">
-                                    We have various expert teams that and marketing specialists that work together to carry out different digital services that include website development and design, Graphic Design, social media advertising, Product photography, Videography and Content Management. 
-                                    Our key objective is to help brand stand out in the global competitive market in order to increase sales and revenue growth through our cutting edge digital services and innovative models. 
+                                    لدينا العديد من فرق الخبراء والمتخصصين في التسويق الذين يعملون معًا لتنفيذ خدمات رقمية مختلفة تشمل تطوير وتصميم مواقع الويب ، وتصميم الجرافيك ، والإعلان عبر وسائل التواصل الاجتماعي ، وتصوير المنتجات ، وتصوير الفيديو ، وإدارة المحتوى.
+
+                                </p>
+                                <p style="color: #000;">
+                                    هدفنا الرئيسي هو مساعدة العلامة التجارية على التميز في السوق التنافسي العالمي من أجل زيادة المبيعات ونمو الإيرادات من خلال خدماتنا الرقمية المتطورة والنماذج المبتكرة.
+
+
                                 </p>
 
                            
@@ -196,7 +122,7 @@ s0.parentNode.insertBefore(s1,s0);
             <section id="how-we-work" >
               
                 <div class="container">
-                    <h2 class="text-center">Why Choose Accept Digital Agency?</h2>
+                    <h2 class="text-center">لماذا تختار Accept Digital Agency ؟</h2>
                       <br>  <br>
                     <div class="row ">
                         <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
@@ -204,7 +130,8 @@ s0.parentNode.insertBefore(s1,s0);
                             
                             <p style="color: #000;">
                                 
-                            We are very passionate about what we do. Honestly, we provide clients with high-impact digital services driven by innovation and insight. We spend our time understanding your business and creating an irresistible magnet for your brands to stand out among competitions. Thus, increasing profitability and continued future growth.
+                            نحن متحمسون جدا لما نقوم به. بصراحة ، نحن نقدم للعملاء خدمات رقمية عالية التأثير مدفوعة بالابتكار والبصيرة. نقضي وقتنا في فهم عملك وإنشاء مغناطيس لا يقاوم لعلاماتك التجارية لتبرز بين المنافسات. وبالتالي ، زيادة الربحية والنمو المستقبلي المستمر.
+
 
                             </p>
                             
@@ -213,34 +140,38 @@ s0.parentNode.insertBefore(s1,s0);
                         <!--end col-xl-7-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/img-size.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                <img src="assets/img/accept-aboutus.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 
                             </div>
                         </div>
                         <!--end col-xl-5-->
                         
                     </div>
+                </div>
                     <br>
-                    
                     <br>
+                <div class="container">
                     <div class="row ">
                         
-                            <h2 class="text-center">Our service delivery approach</h2>
-                            
-                            <p style="color: #000;">
-                                
-                            At Accept Digital Agency, we implement effective brand strategy with digital initiatives solutions that are effective for your business needs and your customer experiences through:
+                            <h2 dir='rtl'>نهجنا في تقديم الخدمة</h2>
+                            <br><br>
+                            <p dir='rtl' style="color: #000;">
+                               في Accept Digital Agency ، ننفذ إستراتيجية فعالة للعلامة التجارية مع حلول مبادرات رقمية فعالة لاحتياجات عملك وتجارب عملائك من خلال:
                             </p>
-                            <ul style="list-style-type:disc;">
-                                <li>Graphic Design</li>
-                                <li>Social media advertising</li>
-                                <li>Product photography</li>
-                                <li>Videography</li>
-                                <li>Content Management</li>
-                                <li>Website development and design </li>
+                            <br><br>
+                            <ul dir='rtl' style="list-style-type:disc;">
+                                <br>
+                                <li style="float: right;">تصميم الجرافيك</li><br>
+                                <li style="float: right;">إعلانات وسائل التواصل الاجتماعي</li><br>
+                                <li style="float: right;">تصوير المنتج</li><br>
+                                <li style="float: right;">التصوير بالفيديو</li><br>
+                                <li style="float: right;">إدارة المحتوى</li><br>
+                                <li style="float: right;">تطوير وتصميم الموقع</li><br>
                             </ul> 
-                            <p style="color: #000;">
-                            With these proven digital service approaches, we can achieve a high level of productivity while responding flexibly to your needs and market conditions. Whatever your business needs to succeed, we've got you covered!
+                            <p dir='rtl' style="color: #000;">
+                           من خلال مناهج الخدمة الرقمية التي أثبتت جدواها ، يمكننا تحقيق مستوى عالٍ من الإنتاجية مع الاستجابة بمرونة لاحتياجاتك وظروف السوق. مهما كان ما يحتاجه عملك للنجاح ، فقد قمنا بتغطيته!
+
+
 
 
                             </p>
