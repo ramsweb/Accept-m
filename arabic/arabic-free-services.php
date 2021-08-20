@@ -97,12 +97,9 @@ s0.parentNode.insertBefore(s1,s0);
                         
                             
                                 <p style="color: #000;">
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulum
-                                    In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
-                                    Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
+                                  حرٌّ إذا جئتَه يومًا لتسألَه		أعطاك ما ملكتْ كفَّاه واعتذرا
+يُخفي صنائعَه واللهُ يظهرُها		إنَّ الجميلَ إذا أخفيته ظهرا              
+
                                 </p>
                            
                     </div>
@@ -110,42 +107,38 @@ s0.parentNode.insertBefore(s1,s0);
                     <table class="table table-hover">
                         <tbody>
                             <tr>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
-                                <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td>service 01</td>
+                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة </a></td>
+                                <td>البايو هو اول قسم يتم ملاحظته في حسابك وايضا هو المكان 
+                                    الذ تقدم فيه نفسك لجمهورك  المستهدف وهناك انواع للبايو كما ان له قواعد وشروط يتضمنها لذا لا تستخف بهذه 150 حرف.  . </td>
+                                <td>تطوير بايو الحساب</td>
                                 
                                 
                             </tr>
                             <tr>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
-                                <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td>service 02</td>
+                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
+                                <td>الهاشتاق الصحيح يعتبر وسيلة تسويق مجانية لخدماتك 
+                                    او منتجاتك ف هو يساعد العملاء علي ايجاد حسابك في حالة بحثهم عن أحدي خدماتك او منتجاتك. </td>
+                                <td>كتابة 5 هشتاقات</td>
                             </tr>
                             <tr>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
-                                <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td>service 03</td>
+                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
+                                <td>من خلال بوستات حساب يقرر الجمهور اما ان يشتري منك الخدمة او لا   ) </td>
+                                <td>تصميم بوست</td>
                             </tr>
                             <tr>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
-                                <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td>service 04</td>
+                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
+                                <td>لتحصل علي زيادة في مبيعاتك اكتب محتوي يناسب جمهورك المستهدف </td>
+                                <td>كتابة نص منشور</td>
                             </tr>
                             <tr>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
-                                <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td>service 05</td>
+                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
+                                <td>احد وسائل الاهتمام بالعملاء هي تهنئتهم بالاعياد او المناسبة الرسمية ويكفي ان تقول لهم جمعة مباركة كل اسبوع </td>
+                                <td>تصميم بطاقة تهنئة</td>
                             </tr>
                             <tr>
-                                <td><a href="claim.html" class="view-works" >Claim</a></td>
-                                <td>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. </td>
-                                <td>service 06</td>
+                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
+                                <td>للالوان دلات ومعاني قيمة واختيار اللون المناسب لمشروعك يحتاج الي فهم طبيعة المشروع  </td>
+                                <td>أختيار الوان مناسبة للمشروع</td>
                             </tr>
                         </tbody>
                     </table>
