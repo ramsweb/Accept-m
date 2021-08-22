@@ -37,7 +37,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#87b204">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
                 
                 
                 <div class="container">
@@ -46,9 +46,6 @@ s0.parentNode.insertBefore(s1,s0);
                         <img src="assets/img/logo.png" alt="">
                     </a>
                     &nbsp;&nbsp
-                    
-                    
-                    
 
                     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -56,27 +53,34 @@ s0.parentNode.insertBefore(s1,s0);
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
                             <div class="nav navbar-nav navbar-center">
-                            <a class="nav-item nav-link ts-scroll"  href="index.html" id="home" style="font-weight: bolder; font-size: 15px">Home </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="about-us.php" id="aboutus" style="font-weight: bolder; font-size: 15px">About Us</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="services.php" id="services" style="font-weight: bolder; font-size: 15px">Our Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="free-services.php" id="freeservices" style="font-weight: bolder; font-size: 15px">Free Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="form.html" id="contactnow" style="font-weight: bolder; font-size: 15px">Contact Us</a>
-                        </div>
+                            <a class="nav-item nav-link ts-scroll" id="contact" href="arabic-form.html" style="font-weight: bolder; font-size: 20px">تواصل معنا</a>
+
+                            <a class="nav-item nav-link ts-scroll" id="freeservices" href="arabic-free-services.php" style="font-weight: bolder; font-size: 20px">ضيافتكم</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link active ts-scroll"  id="services" href="arabic-services.php" style="font-weight: bolder; font-size: 20px" >خدماتنا</a>&nbsp;&nbsp
+
+                            <a class="nav-item nav-link ts-scroll" id="aboutus"  href="arabic-about-us.php" style="font-weight: bolder; font-size: 20px" >من نحن</a>&nbsp;&nbsp
+                           
+                            <a class="nav-item nav-link ts-scroll" id="home"  href="index.html" style="font-weight: bolder;font-size: 20px;">الرئيسية </a>&nbsp;&nbsp
                             
+                            </div>
+                           
+                             
+
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder; font-size: 15px">Arabic</a>
+                    <a class="nav-item nav-link ts-scroll" href="english.html" style="font-weight: bolder;font-size: 20px">English</a>
                 </div>
                 <!--end container-->
             </nav>
             <!--end navbar-->
-          
+            <!--end navbar-->
 
            
             <div class="ts-background" data-bg-image-opacity="1" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 
                 
-                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/free-services.png"  data-bg-blend-mode="multiply"></div>
+                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/free-services.png" data-bg-blend-mode="multiply"></div>
                     
                 
             </div>
@@ -92,13 +96,10 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="about">
                         
                             
-                                <p style="color: #000;">
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulum
-                                    In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
-                                    Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
+                                <p class="text-center" style="font-size: 20px; font-weight: bolder; color: #233c74"> 
+                                حرٌّ إذا جئتَه يومًا لتسألَه,أعطاك ما ملكتْ كفَّاه واعتذرا
+</p> <p class="text-center" style="font-size: 20px; font-weight: bolder; color: #233c74">                                            يُخفي صنائعَه واللهُ يظهرُها,إنَّ الجميلَ إذا أخفيته ظهرا              
+
                                 </p>
                            
                     </div>
@@ -107,75 +108,72 @@ s0.parentNode.insertBefore(s1,s0);
                         <tbody >
                             <form>
                                 <tr >
+                                    
+                                    <td ><div style="font-weight: bolder;"> تطوير بايو الحساب</div> البايو هو اول قسم يتم ملاحظته في حسابك وايضا هو المكان 
+                                    الذ تقدم فيه نفسك لجمهورك  المستهدف وهناك انواع للبايو كما ان له قواعد وشروط يتضمنها لذا لا تستخف بهذه 150 حرف.  . </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
                                         </div>
                                     </td>
-                                    <td ><div style="font-weight: bolder;"> Service 01</div> Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis matti Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulu In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
-                                    Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. </td>
-                                    
                                 </tr>
                                 <tr >
+                                    
+                                    <td ><div style="font-weight: bolder;"> كتابة 5 هشتاقات</div>الهاشتاق الصحيح يعتبر وسيلة تسويق مجانية لخدماتك 
+                                    او منتجاتك ف هو يساعد العملاء علي ايجاد حسابك في حالة بحثهم عن أحدي خدماتك او منتجاتك.  </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
                                         </div>
                                     </td>
-                                    <td ><div style="font-weight: bolder;">  Service 02 </div>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis matti Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulu In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
-                                    Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. </td>
-                                    
                                 </tr>
 
                                 <tr>
+                                    
+                                    <td ><div style="font-weight: bolder;"> تصميم بوست</div>ان خلال بوستات حساب يقرر الجمهور اما ان يشتري منك الخدمة او لا  </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
                                         </div>
                                     </td>
-                                    <td ><div style="font-weight: bolder;"> Service 03 </div> Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis matti Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulu In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
-                                    Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. </td>
                                 </tr>
 
                                 <tr>
+                                    
+                                    <td ><div style="font-weight: bolder;"> كتابة نص منشور</div>لتحصل علي زيادة في مبيعاتك اكتب محتوي يناسب جمهورك المستهدف  </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
                                         </div>
                                     </td>
-                                    <td ><div style="font-weight: bolder;">  Service 04 </div>ا Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis matti Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulu In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
-                                    Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. </td>
-                                    
                                 </tr>
 
                                   <tr>
+                                    
+                                    <td ><div style="font-weight: bolder;"> تصميم بطاقة تهنئة</div>لاحد وسائل الاهتمام بالعملاء هي تهنئتهم بالاعياد او المناسبة الرسمية ويكفي ان تقول لهم جمعة مباركة كل اسبوع </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
                                         </div>
                                     </td>
-                                    <td ><div style="font-weight: bolder;">  Service 05 </div>ا Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis matti Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulu In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
-                                    Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. </td>
-                                    
                                 </tr>
 
                                 <tr>
+                                    
+                                    <td ><div style="font-weight: bolder;"> أختيار الوان مناسبة للمشروع</div>للالوان دلات ومعاني قيمة واختيار اللون المناسب لمشروعك يحتاج الي فهم طبيعة المشروع </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
                                         </div>
                                     </td>
-                                    <td ><div style="font-weight: bolder;"> Service 06 </div> Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis matti Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulu In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
-                                    Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. </td>
-                                    
                                 </tr>
 
                             </form>
                         </tbody>
                     </table>
 
-                <a href="claim.html" class="view-works" >Claim Now</a>
-
+                    
+                <a href="claim.html" class="view-works" >أمتلك الخدمة</a>
                 <div class="text-center text-white py-4">
                     
                 <div class="ts-social-icons">
