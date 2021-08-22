@@ -38,7 +38,7 @@
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
                         
-                            <a class="nav-item nav-link active ts-scroll"  href="index.html" style="font-weight: bolder;">Home </a>&nbsp;&nbsp
+                            <a class="nav-item nav-link active ts-scroll"  href="english.html" style="font-weight: bolder;">Home </a>&nbsp;&nbsp
                             <a class="nav-item nav-link ts-scroll" href="about-us.php" style="font-weight: bolder;" >About Us</a>&nbsp;&nbsp
                             <a class="nav-item nav-link  ts-scroll" href="services.php" style="font-weight: bolder;" >Our Services</a>&nbsp;&nbsp
                             <a class="nav-item nav-link ts-scroll" href="free-services.php" style="font-weight: bolder;">Free Services</a>&nbsp;&nbsp
@@ -47,7 +47,7 @@
                             
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="arabic.html" style="font-weight: bolder;">Arabic</a>
+                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">Arabic</a>
                 </div>
                 <!--end container-->
             </nav>

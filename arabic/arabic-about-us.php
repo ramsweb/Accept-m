@@ -91,9 +91,9 @@ s0.parentNode.insertBefore(s1,s0);
 
             <section id="Who-we-are" class="text-center">
                 <div class="container">
-                    <br>
+                    <br><br>
                         <h2>من نحن</h2>
-                    
+                    <br><br>
                     <div class="about">
                         
                             
@@ -117,12 +117,13 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <!--end container-->
             </section>
+            <br><br>
             <!--END HOW IT WORKS ************************************************************************************-->
 
             <section id="how-we-work" >
               
                 <div class="container">
-                    <h2 class="text-center">لماذا تختار Accept Digital Agency ؟</h2>
+                    <h2 class="text-center">لماذا اختار أكسبت للعمليات التسويقية </h2>
                       <br>  <br>
                     <div class="row ">
                         <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
@@ -151,61 +152,57 @@ s0.parentNode.insertBefore(s1,s0);
                     <br>
                     <br>
                 <div class="container">
-                    <div class="row ">
+                    
                         
-                            <h2 dir='rtl'>نهجنا في تقديم الخدمة</h2>
+                            <h2 class="text-center">نهجنا في تقديم الخدمة</h2>
                             <br><br>
-                            <p dir='rtl' style="color: #000;">
-                               في Accept Digital Agency ، ننفذ إستراتيجية فعالة للعلامة التجارية مع حلول مبادرات رقمية فعالة لاحتياجات عملك وتجارب عملائك من خلال:
-                            </p>
-                            <br><br>
+                            
+                            <div style="color: #000; float: right">
+                                في أكسبت للعمليات التسويقية ، ننفذ إستراتيجية فعالة للعلامة التجارية مع حلول مبادرات رقمية فعالة لاحتياجات عملك وتجارب عملائك من خلال
+                            </div>
+                          
                             <ul dir='rtl' style="list-style-type:disc;">
                                 <br>
-                                <li style="float: right;">تصميم الجرافيك</li><br>
-                                <li style="float: right;">إعلانات وسائل التواصل الاجتماعي</li><br>
-                                <li style="float: right;">تصوير المنتج</li><br>
-                                <li style="float: right;">التصوير بالفيديو</li><br>
-                                <li style="float: right;">إدارة المحتوى</li><br>
-                                <li style="float: right;">تطوير وتصميم الموقع</li><br>
+                                <li style="float: right;font-weight: bolder">تصميم الجرافيك</li><br>
+                                <li style="float: right;font-weight: bolder">إعلانات وسائل التواصل الاجتماعي</li><br>
+                                <li style="float: right;font-weight: bolder">تصوير المنتج</li><br>
+                                <li style="float: right;font-weight: bolder">التصوير بالفيديو</li><br>
+                                <li style="float: right;font-weight: bolder">إدارة المحتوى</li><br>
+                                <li style="float: right;font-weight: bolder">تطوير وتصميم الموقع</li><br>
                             </ul> 
-                            <p dir='rtl' style="color: #000;">
-                           من خلال مناهج الخدمة الرقمية التي أثبتت جدواها ، يمكننا تحقيق مستوى عالٍ من الإنتاجية مع الاستجابة بمرونة لاحتياجاتك وظروف السوق. مهما كان ما يحتاجه عملك للنجاح ، فقد قمنا بتغطيته!
+                            <div dir='rtl' style="color: #000; float: right;">
+                                من خلال مناهج الخدمة الرقمية التي أثبتت كفاءتها ، يمكننا تحقيق مستوى عالٍ من الإنتاجية من خلال الاستجابة بمرونة لاحتياجات وظروف السوق الخاصة بك. مهما كان ما يحتاجه عملك للنجاح ، فقد قمنا بتغطيته!
 
-
-
-
-                            </p>
+                            </div>
                             
                             
                         
                         
-                    </div>
+                   
 
                     
                     
                     <div class="text-center">
-                        <a class="view-works" href="works.php" > View All Our Works</a>
+                        <a class="view-works" href="works.php" > عرض أعمالنا</a>
                     </div>
                 </div><br><br>
                 <!--end container-->
-                <div class="text-center text-white py-4">
+                 <div class="text-center text-white py-4">
                     
                 <div class="ts-social-icons">
                     <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square" style='font-size:30px'></i>
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
-                        <i class="fab fa-instagram"></i>
-                    </a>                       
+                        <i class="fab fa-instagram" style='font-size:30px'></i>
+                    </a>                               
                     <a href="#" id="linkedin">&nbsp;&nbsp
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" style='font-size:30px'></i>
                     </a>
                     <a href="mailto:accept@gmail.com" id="envelope">&nbsp;&nbsp
-                        <i class="fas fa-envelope-square"></i>
+                        <i class="fas fa-envelope-square" style='font-size:30px'></i>
                     </a>
-                    <a href="#" id="twitter">&nbsp;&nbsp
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                   
                 </div>
                 <!--end social-icons-->                            
             </div>

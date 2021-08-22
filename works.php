@@ -33,7 +33,7 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 <body>
    
-         <section id="works" class="ts-block" data-bg-image="assets/img/BACKGROUND6.JPG" >
+         <section id="works" class="ts-block" data-bg-image="assets/img/BACKGROUND2.JPG" >
                 
                 <div class="container">
                     <div class=" text-center">
@@ -133,8 +133,8 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <br><br><br><br>
                 <div class="text-center">
-                    <a  class="back" href="index.html"> Back</a>
-                    <a  class="back" href="index.html"> Get Quote</a>
+                    <a  class="back" href="english.html"> Back</a>
+                    <a  class="back" href="form.html"> Get Quote</a>
             <!--end container-->
                 </div>
         </section> 

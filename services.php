@@ -37,7 +37,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
+             <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
                 <a class="navbar-brand" href="#page-top">
                         <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
                     </a>
@@ -52,17 +52,17 @@ s0.parentNode.insertBefore(s1,s0);
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                            <a class="nav-item nav-link  ts-scroll"  href="index.html" style="font-weight: bolder;">Home </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="about-us.php" style="font-weight: bolder;" >About Us</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="services.php" style="font-weight: bolder;" >Our Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="free-services.php" style="font-weight: bolder;">Free Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="form.html" style="font-weight: bolder;">Contact Us</a>
-
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link active ts-scroll"  href="index.html" id="home" style="font-weight: bolder; font-size: 15px">Home </a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="about-us.php" id="aboutus" style="font-weight: bolder; font-size: 15px">About Us</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link active ts-scroll" href="services.php" id="services" style="font-weight: bolder; font-size: 15px">Our Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="free-services.php" id="freeservices" style="font-weight: bolder; font-size: 15px">Free Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="form.html" id="contactnow" style="font-weight: bolder; font-size: 15px">Contact Us</a>
+                        </div>
                             
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="arabic.html" style="font-weight: bolder;">Arabic</a>
+                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">Arabic</a>
                 </div>
                 <!--end container-->
             </nav>
@@ -73,25 +73,23 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="ts-background" data-bg-image-opacity="1" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 
                 
-                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-services.jpg" data-bg-color="#d9f8fa" data-bg-blend-mode="multiply"></div>
+                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-services.jpeg"  data-bg-blend-mode="multiply"></div>
                     
                 
             </div>
 
         </header>
         
-         <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
+        <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
             <section id="Our-Services" >
                 <br>
                 <div class="container">
-                    <div class=" text-left">
-                        <h2>Our Services</h2>
-                    </div>
+                    
                     <div class="row ">
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-graphic-designer.jpeg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="graphic-design.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/graphic-design.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
                             </div>
                         </div>
                         <!--end col-xl-5-->
@@ -99,11 +97,10 @@ s0.parentNode.insertBefore(s1,s0);
                             
                             <h3>Graphic Design</h3>   
                             <p>
-                                We work with our client to create a visual face of their business. Every design we create is done to create brand awareness and put your business forward in the best possible light to your customers. We are familiar with the present market for creative designs and knowledgeable with the latest techniques and tools to be successful. 
+                                At <span style="font-weight: bold;font-style: italic;">Accept Digital Agency</span>, we provide high-quality graphic design for our clients. We have a wide experience in dealing with matters pertaining to new business identity packages, graphics design, product photography, content development and management, social media packages, website development and any other composition related to digital services.
+
                             </p>
-                            <p>
-                               Be rest assured that our high level of competency and efficiency will lead to building a strong and attractive corporate identity for your company
-                            </p>
+                            <a href="graphic-design.html" class="seemore" ><span style="font-weight: bold;">see more>></span> </a>
                             
                         </div>
                         <!--end col-xl-7-->
@@ -115,15 +112,15 @@ s0.parentNode.insertBefore(s1,s0);
 
                             <h3>Social Media Marketting</h3>
                             <p>
-                                We are not only providing social media marketing, but also offer Social Media Optimization. We use this to enhance the online visibility of your business and generate more traffic. Our social Media Optimization services include articles and press release submission, social bookmarking, uploading photos and videos, directory listing, ppt submission, classified advertisements and other related activities.As a professional Social Media Marketing agency, we offer all inclusive services that are designed to give your business real targeted leads and convert them to sale. 
+                                At <span style="font-weight: bold;font-style: italic;">Accept Digital Agency</span>, we create a win-win situation for business enterprises by providing a prolific exposure of businesses in the online domains to real targeted customers. With the most innovative techniques and strategies, we use adept social media planning and appropriate approach to help businesses achieve their desired marketing goal. 
                             </p>
-                            
+                            <a href="social-media.html" class="seemore" ><span style="font-weight: bold;">see more>></span> </a>
                         </div>
                         <!--end col-xl-5-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-offset="100" data-delay="0.1s">
                             <div class="px-3">
-                                <img src="assets/img/accept-social-media.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="social-media.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/social-media.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
                             </div>
                         </div>
                         <!--end col-xl-7-->
@@ -134,8 +131,8 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="row">
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-photography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="photography.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/photograph.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
                             </div>
                         </div>
                         <!--end col-xl-5-->
@@ -143,10 +140,10 @@ s0.parentNode.insertBefore(s1,s0);
                             
                             <h3>Photography</h3>   
                             <p>
-                                We also help ecommerce companies that need to extend their customer profile and want to re-gain their loyal clientele by portraying a proper image of their products. This type of product photography helps in making the products look attractive to their consumers and also compel them to buy.
+                                <span style="font-weight: bold;font-style: italic;">Accept Digital Agency</span> offer cutting-edge product photography service that actually helps to display your products to their maximum potential and to increase the sale of the product. We use a wide range of professional equipment and techniques to ensure top quality product photographs in order to achieve the specified result. 
 
                             </p>
-                           
+                            <a href="photography.html" class="seemore" ><span style="font-weight: bold;">see more>></span> </a>
                             
                         </div>
                         <!--end col-xl-7-->
@@ -159,18 +156,16 @@ s0.parentNode.insertBefore(s1,s0);
 
                             <h3>Videography</h3>
                             <p>
-                                As a professional videography company, we have the editing equipment and skills to properly craft the feel and message of your video in a professional way with high quality resolution. Businesses are now using video media to increase product or brand awareness and training employees with business messages and strategies. 
+                                <span style="font-weight: bold;font-style: italic;">Accept Digital Agency</span> provide video production services that include concept creation, video coverage and video editing services as a form of marketing your products, displaying new ads and informing your services to your potential clients. Video marketing allows you to interact with a huge number of people at any given time and more effective in captivating the audiences interest fast. 
 
                             </p>
-                            <p>
-                                There isn't a better time to start better than now! Start using videography to attract people to your business in a very smart and cost effective way.
-                            </p>
+                           <a href="videography.html" class="seemore" ><span style="font-weight: bold;">see more>></span> </a>
                         </div>
                         <!--end col-xl-5-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-offset="100" data-delay="0.1s">
                             <div class="px-3">
-                                <img src="assets/img/accept-videography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="videography.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/videohgraph.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
                             </div>
                         </div>
                         <!--end col-xl-7-->
@@ -182,18 +177,19 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="row">
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-content-managment.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="content-management.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/content.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
                             </div>
                         </div>
                         <!--end col-xl-5-->
                         <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
                             
-                            <h3>Digital Marketting</h3>   
+                            <h3>Digital Marketing</h3>   
                             <p>
-                                We are dedicated to providing the best content writing and management service in Dubai and relentlessly focused on improving our already high standards in order to deliver the utmost quality and exclusive services. With the ever-evolving nature of the internet, we strive to not only be recognized as the best content management company in Dubai but to make a difference and contribution to the progression of online business. Reach us today and let help you with content management services that will fuel your business growth in innumerable ways.
+                                <span style="font-weight: bold;font-style: italic;">Accept Digital Agency</span> is recognized Content management company in Dubai, providing quality web content which attract visitors to your website and help you move up the elusive ladder of SERPs through the use of SEO for higher ranking. Our content management service helps to increase conversions and visibility by utilizing techniques like competitive insight and user’s behaviour. We can help you to identify content mix for your business and create quality content to improve your brand's visibility and drive an emotional connection with your audience.
                             </p>
                             
+                            <a href="content-management.html" class="seemore" ><span style="font-weight: bold;">see more>></span> </a>
                         </div>
                         <!--end col-xl-7-->
                     </div>
@@ -205,16 +201,15 @@ s0.parentNode.insertBefore(s1,s0);
 
                             <h3>Web Development</h3>
                             <p>
-                               Whether you are a small business or large business looking for full web development and design for your company in UAE, Accept Digital Agency is always at your service to offer you a full-service web development and designing with top-class marketing.
-
+                                <span style="font-weight: bold;font-style: italic;">Accept Digital Agency</span> is a one stop reliable and professional development company offering you precise solutions for all your web design and development needs in real time manner. We provide you with a functional website for your business that strengthens to engage with more potential users and at the same time as capturing a broad market while converting visitors into clients. We use all advanced techniques and programming languages to develop and maintain all types of sites be it e-Commerce or Blog sites to be result oriented.
                             </p>
-                            
+                             <a href="website.html" class="seemore" ><span style="font-weight: bold;">see more>></span> </a>
                         </div>
                         <!--end col-xl-5-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-offset="100" data-delay="0.1s">
                             <div class="px-3">
-                                <img src="assets/img/accept-website.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                                <a href="website.html" class="graphic-design" >see more>></a>
+                                <img src="assets/img/web-dev.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
                             </div>
                         </div>
                         <!--end col-xl-7-->
@@ -223,29 +218,22 @@ s0.parentNode.insertBefore(s1,s0);
                     <br>
                 </div>
                 <!--end container-->
-                <div class="text-center">
-                        <a class="view-works" href="works.php" > View All Our Works</a>
-                
-                </div><br><br>
-                <!--end container-->
                 <div class="text-center text-white py-4">
                     
                 <div class="ts-social-icons">
                     <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square" style='font-size:30px'></i>
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
-                        <i class="fab fa-instagram"></i>
-                    </a>                                   
+                        <i class="fab fa-instagram" style='font-size:30px'></i>
+                    </a>                               
                     <a href="#" id="linkedin">&nbsp;&nbsp
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" style='font-size:30px'></i>
                     </a>
                     <a href="mailto:accept@gmail.com" id="envelope">&nbsp;&nbsp
-                        <i class="fas fa-envelope-square"></i>
+                        <i class="fas fa-envelope-square" style='font-size:30px'></i>
                     </a>
-                    <a href="#" id="twitter">&nbsp;&nbsp
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                   
                 </div>
                 <!--end social-icons-->                            
             </div>
@@ -253,6 +241,8 @@ s0.parentNode.insertBefore(s1,s0);
                 <small>© 2021 Accept, All Rights Reserved</small>
             </div>
             </section>
+                
+            
             
 
             

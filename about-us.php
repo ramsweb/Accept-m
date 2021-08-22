@@ -37,12 +37,15 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
-                <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
-                    </a>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
+                
                 
                 <div class="container">
+                    
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                    &nbsp;&nbsp
                     
                     
                     
@@ -52,122 +55,36 @@ s0.parentNode.insertBefore(s1,s0);
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                            <a class="nav-item nav-link ts-scroll"  href="index.html" style="font-weight: bolder;">Home </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="about-us.php" style="font-weight: bolder;" >About Us</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="services.php" style="font-weight: bolder;" >Our Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="free-services.php" style="font-weight: bolder;">Free Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="form.html" style="font-weight: bolder;">Contact Us</a>
-
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link ts-scroll"  href="index.html" id="home" style="font-weight: bolder; font-size: 15px">Home </a>&nbsp;&nbsp
+                            <a class="nav-item nav-link active ts-scroll" href="about-us.php" id="aboutus" style="font-weight: bolder; font-size: 15px">About Us</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="services.php" id="services" style="font-weight: bolder; font-size: 15px">Our Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="free-services.php" id="freeservices" style="font-weight: bolder; font-size: 15px">Free Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="form.html" id="contactnow" style="font-weight: bolder; font-size: 15px">Contact Us</a>
+                        </div>
                             
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="arabic.html" style="font-weight: bolder;">Arabic</a>
+                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder; font-size: 15px">Arabic</a>
                 </div>
                 <!--end container-->
             </nav>
             <!--end navbar-->
 
-            <!--HERO CONTENT ****************************************************************************************-->
-            <!--<div class="container align-self-center">
-                <div class="row align-items-center">
-                    <div class="col-sm-9">
-                        <h3 class="ts-opacity__50">Get Organized!</h3>
-                        <h1>All Your Activities In One Place</h1>
-                        <a href="#how-it-works" class="btn btn-light btn-lg ts-scroll">Get Quote</a>
-                        <button id="myBtn" class="btn btn-primary" data-bg-color="#baca1c" style="font-size: 22px;">Get Quote</button>
-                    <div id="myModal" class="modal">
-
-                        
-                            <div class="modal-content">
-                                <div class="modal-header" >
-                                    <h2 style="text-align: center;" >Accept</h2>
-                                        <span class="close">&times;</span>
-                                
-                                </div>
-                                <div class="modal-body">
-                                    <div class="col-md-12 ">
-                                
-                                        <p style="font-size: 1rem;"> Discuss Your Project With Us</p>
-                                        <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="assets/php/email.php">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-name">Your Name *</label>
-                                                    <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-phone">Your Phone *</label>
-                                                    <input type="phone" class="form-control" id="form-contact-phone" name="phone" placeholder="Your Phone number" required>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                       
-                                    
-                                        <div class="row">
-                                            <div class="col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-email">Your Email *</label>
-                                                    <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
-                                                </div>
-                                            
-                                            </div>
-                                       
-                                    
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-message">Your Message *</label>
-                                                    <textarea class="form-control" id="form-contact-message" rows="3" name="message" placeholder="Your Message" required></textarea>
-                                                </div>
-                                            
-                                            </div>
-                                       
-                                        </div>
-                                    
-                                        <div class="form-group clearfix">
-                                            <button type="submit" class="btn btn-primary" id="form-contact-submit">Get Quote</button>
-                                        </div>
-                                        
-                                            <div class="form-contact-status"></div>
-                                        </form>
-                                    
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </div>
-                    </div>
             
-                    <div class="col-sm-3 d-none d-sm-block">
-                        
-                            <img src="assets/img/img-phone.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt="">
-                            
-                        
-                    </div>
-                  
-                </div>
-              
-            </div>-->
           
 
             <div class="ts-background" data-bg-image-opacity=".6" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 
                 
-                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-aboutus.jpg" data-bg-blend-mode="multiply" style="top: 0%"></div>
+                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-aboutus.jpeg" data-bg-blend-mode="multiply" style="top: 0%"></div>
                     
                 
             </div>
 
         </header>
         <!--end #hero-->
-        <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
+        <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
 
             <section id="Who-we-are" class="text-center">
                 <div class="container">
@@ -213,7 +130,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <!--end col-xl-7-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/img-size.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                <img src="assets/img/accept-aboutus.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 
                             </div>
                         </div>
@@ -253,7 +170,7 @@ s0.parentNode.insertBefore(s1,s0);
                     
                     
                     <div class="text-center">
-                        <a class="view-works" href="works.php" > View All Our Works</a>
+                        <a class="view-works" href="works.php" > View Our Works</a>
                     </div>
                 </div><br><br>
                 <!--end container-->
@@ -261,21 +178,20 @@ s0.parentNode.insertBefore(s1,s0);
                     
                 <div class="ts-social-icons">
                     <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square" style='font-size:30px'></i>
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
-                        <i class="fab fa-instagram"></i>
-                    </a>                       
+                        <i class="fab fa-instagram" style='font-size:30px'></i>
+                    </a>                               
                     <a href="#" id="linkedin">&nbsp;&nbsp
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" style='font-size:30px'></i>
                     </a>
                     <a href="mailto:accept@gmail.com" id="envelope">&nbsp;&nbsp
-                        <i class="fas fa-envelope-square"></i>
+                        <i class="fas fa-envelope-square" style='font-size:30px'></i>
                     </a>
-                    <a href="#" id="twitter">&nbsp;&nbsp
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                   
                 </div>
+                <!--end social-icons-->     
                 <!--end social-icons-->                            
             </div>
             <div class="text-center text-black py-4">

@@ -37,12 +37,15 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-default navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
-                <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
-                    </a>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
+                
                 
                 <div class="container">
+                    
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                    &nbsp;&nbsp
                     
                     
                     
@@ -52,39 +55,39 @@ s0.parentNode.insertBefore(s1,s0);
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                            <a class="nav-item nav-link  ts-scroll"  href="index.html" style="font-weight: bolder;">Home </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="about-us.php" style="font-weight: bolder;" >About Us</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link  ts-scroll" href="services.php" style="font-weight: bolder;" >Our Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="free-services.php" style="font-weight: bolder;">Free Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="form.html" style="font-weight: bolder;">Contact Us</a>
-
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link ts-scroll"  href="index.html" id="home" style="font-weight: bolder; font-size: 15px">Home </a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="about-us.php" id="aboutus" style="font-weight: bolder; font-size: 15px">About Us</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="services.php" id="services" style="font-weight: bolder; font-size: 15px">Our Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link active ts-scroll" href="free-services.php" id="freeservices" style="font-weight: bolder; font-size: 15px">Free Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="form.html" id="contactnow" style="font-weight: bolder; font-size: 15px">Contact Us</a>
+                        </div>
                             
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="arabic.html" style="font-weight: bolder;">Arabic</a>
+                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder; font-size: 15px">Arabic</a>
                 </div>
                 <!--end container-->
             </nav>
             <!--end navbar-->
-            <!--end navbar-->
+          
 
            
             <div class="ts-background" data-bg-image-opacity="1" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 
                 
-                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-freeservices.jpg" data-bg-color="#d9f8fa" data-bg-blend-mode="multiply"></div>
+                    <div class="ts-background-image ts-parallax-element"  data-bg-image="assets/img/accept-freeservices.jpg"  data-bg-blend-mode="multiply"></div>
                     
                 
             </div>
 
         </header>
         
-         <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
+         <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
             <section id="openings" >
                 <div class="container">
                     <br>
-                        <h2>Our Offers</h2>
+                        
                     
                     <div class="about">
                         
@@ -145,20 +148,18 @@ s0.parentNode.insertBefore(s1,s0);
                     
                 <div class="ts-social-icons">
                     <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square" style='font-size:30px'></i>
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
-                        <i class="fab fa-instagram"></i>
-                    </a>                                     
+                        <i class="fab fa-instagram" style='font-size:30px'></i>
+                    </a>                               
                     <a href="#" id="linkedin">&nbsp;&nbsp
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" style='font-size:30px'></i>
                     </a>
                     <a href="mailto:accept@gmail.com" id="envelope">&nbsp;&nbsp
-                        <i class="fas fa-envelope-square"></i>
+                        <i class="fas fa-envelope-square" style='font-size:30px'></i>
                     </a>
-                    <a href="#" id="twitter">&nbsp;&nbsp
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                   
                 </div>
                 <!--end social-icons-->                            
             </div>

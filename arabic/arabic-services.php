@@ -120,7 +120,7 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="row">
                         <div class="col-md-5 col-xl-5 " data-animate="ts-fadeInUp"  data-offset="100">
 
-                            <h3 dir="rtl" style="float: right;"> ٢.   وسائل التسويق عبر التواصل الاجتماعي والتحسين  </h3>
+                            <h3 dir="rtl" style="float: right;"> ٢.    التسويق عبر وسائل التواصل الاجتماعي </h3>
                             <br><br> 
                             <p dir="rtl" style="float: right;">
                               في Accept digital Agency ، نقوم بإنشاء وضع مربح للجانبين لمؤسسات الأعمال من خلال تقديم عرض غزير للشركات في المجالات عبر الإنترنت للعملاء المستهدفين الحقيقيين. باستخدام التقنيات والاستراتيجيات الأكثر ابتكارًا ، والنهج المناسب لمساعدة الشركات على تحقيق أهدافها.
@@ -235,7 +235,7 @@ s0.parentNode.insertBefore(s1,s0);
                              <p dir="rtl" >
                               نحن نستخدم جميع التقنيات المتقدمة ولغات البرمجة لتطوير وصيانة جميع أنواع المواقع سواء كانت مواقع التجارة الإلكترونية أو مواقع المدونات لتكون موجهة نحو النتائج.
                             </p>
-                            <a href="arabic-website" class="seemore"  dir="rtl">المزيد>></a>
+                            <a href="arabic-website.html" class="seemore"  dir="rtl">المزيد>></a>
                         </div>
                         <!--end col-xl-5-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-offset="100" data-delay="0.1s">
@@ -258,22 +258,20 @@ s0.parentNode.insertBefore(s1,s0);
                     
                 <div class="ts-social-icons">
                     <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square" style='font-size:30px'></i>
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
-                        <i class="fab fa-instagram"></i>
-                    </a>                                   
+                        <i class="fab fa-instagram" style='font-size:30px'></i>
+                    </a>                               
                     <a href="#" id="linkedin">&nbsp;&nbsp
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" style='font-size:30px'></i>
                     </a>
                     <a href="mailto:accept@gmail.com" id="envelope">&nbsp;&nbsp
-                        <i class="fas fa-envelope-square"></i>
+                        <i class="fas fa-envelope-square" style='font-size:30px'></i>
                     </a>
-                    <a href="#" id="twitter">&nbsp;&nbsp
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                   
                 </div>
-                <!--end social-icons-->                            
+                <!--end social-icons-->                             
             </div>
             <div class="text-center text-black py-4">
                 <small>© 2021 Accept, All Rights Reserved</small>

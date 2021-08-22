@@ -52,7 +52,7 @@ s0.parentNode.insertBefore(s1,s0);
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
                         <div class="navbar-nav ml-auto">
-                            <a class="nav-item nav-link ts-scroll"  href="index.html" style="font-weight: bolder;">Home <span class="sr-only">(current)</span></a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll"  href="english.html" style="font-weight: bolder;">Home <span class="sr-only">(current)</span></a>&nbsp;&nbsp
                             <a class="nav-item nav-link ts-scroll" href="about-us.php" style="font-weight: bolder;" >About Us</a>&nbsp;&nbsp
                             <a class="nav-item nav-link ts-scroll" href="services.php" style="font-weight: bolder;" >Our Services</a>&nbsp;&nbsp
                             <a class="nav-item nav-link ts-scroll" href="#" style="font-weight: bolder;">Our Clients</a>&nbsp;&nbsp
@@ -64,7 +64,7 @@ s0.parentNode.insertBefore(s1,s0);
 
                         </div> 
                         <!--end navbar-nav-->
-                            <a class="nav-item nav-link ts-scroll" href="arabic.html" style="font-weight: bolder;">Arabic</a>
+                            <a class="nav-item nav-link ts-scroll" href="english.html" style="font-weight: bolder;">Arabic</a>
                     </div>
                     <!--end collapse-->
                     
@@ -99,8 +99,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         </header>
         <!--end #hero-->
-        <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
-
+        <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
             <section id="openings" class="text-center">
                 <div class="container">
                     <br>
@@ -198,7 +197,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <!--end col-xl-4-->
                     </div>
                     <!--end row-->
-                    <a  class="back" href="index.html">Back</a>
+                    <a  class="back" href="english.html">Back</a>
                 </div>
                 <!--end container-->
             </section>

@@ -96,71 +96,100 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="about">
                         
                             
-                                <p style="color: #000;">
-                                  حرٌّ إذا جئتَه يومًا لتسألَه		أعطاك ما ملكتْ كفَّاه واعتذرا
-يُخفي صنائعَه واللهُ يظهرُها		إنَّ الجميلَ إذا أخفيته ظهرا              
+                                <p class="text-center" style="font-size: 20px; font-weight: bolder; color: #233c74"> 
+                                حرٌّ إذا جئتَه يومًا لتسألَه,أعطاك ما ملكتْ كفَّاه واعتذرا
+</p> <p class="text-center" style="font-size: 20px; font-weight: bolder; color: #233c74">                                            يُخفي صنائعَه واللهُ يظهرُها,إنَّ الجميلَ إذا أخفيته ظهرا              
 
                                 </p>
                            
                     </div>
 
                     <table class="table table-hover">
-                        <tbody>
-                            <tr>
-                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة </a></td>
-                                <td>البايو هو اول قسم يتم ملاحظته في حسابك وايضا هو المكان 
+                        <tbody >
+                            <form>
+                                <tr >
+                                    
+                                    <td ><div style="font-weight: bolder;"> تطوير بايو الحساب</div> البايو هو اول قسم يتم ملاحظته في حسابك وايضا هو المكان 
                                     الذ تقدم فيه نفسك لجمهورك  المستهدف وهناك انواع للبايو كما ان له قواعد وشروط يتضمنها لذا لا تستخف بهذه 150 حرف.  . </td>
-                                <td>تطوير بايو الحساب</td>
-                                
-                                
-                            </tr>
-                            <tr>
-                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
-                                <td>الهاشتاق الصحيح يعتبر وسيلة تسويق مجانية لخدماتك 
-                                    او منتجاتك ف هو يساعد العملاء علي ايجاد حسابك في حالة بحثهم عن أحدي خدماتك او منتجاتك. </td>
-                                <td>كتابة 5 هشتاقات</td>
-                            </tr>
-                            <tr>
-                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
-                                <td>من خلال بوستات حساب يقرر الجمهور اما ان يشتري منك الخدمة او لا   ) </td>
-                                <td>تصميم بوست</td>
-                            </tr>
-                            <tr>
-                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
-                                <td>لتحصل علي زيادة في مبيعاتك اكتب محتوي يناسب جمهورك المستهدف </td>
-                                <td>كتابة نص منشور</td>
-                            </tr>
-                            <tr>
-                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
-                                <td>احد وسائل الاهتمام بالعملاء هي تهنئتهم بالاعياد او المناسبة الرسمية ويكفي ان تقول لهم جمعة مباركة كل اسبوع </td>
-                                <td>تصميم بطاقة تهنئة</td>
-                            </tr>
-                            <tr>
-                                <td><a href="claim.html" class="view-works" >أمتلك الخدمة</a></td>
-                                <td>للالوان دلات ومعاني قيمة واختيار اللون المناسب لمشروعك يحتاج الي فهم طبيعة المشروع  </td>
-                                <td>أختيار الوان مناسبة للمشروع</td>
-                            </tr>
+                                    <td>
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    
+                                    <td ><div style="font-weight: bolder;"> كتابة 5 هشتاقات</div>الهاشتاق الصحيح يعتبر وسيلة تسويق مجانية لخدماتك 
+                                    او منتجاتك ف هو يساعد العملاء علي ايجاد حسابك في حالة بحثهم عن أحدي خدماتك او منتجاتك.  </td>
+                                    <td>
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    
+                                    <td ><div style="font-weight: bolder;"> تصميم بوست</div>ان خلال بوستات حساب يقرر الجمهور اما ان يشتري منك الخدمة او لا  </td>
+                                    <td>
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    
+                                    <td ><div style="font-weight: bolder;"> كتابة نص منشور</div>لتحصل علي زيادة في مبيعاتك اكتب محتوي يناسب جمهورك المستهدف  </td>
+                                    <td>
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                  <tr>
+                                    
+                                    <td ><div style="font-weight: bolder;"> تصميم بطاقة تهنئة</div>لاحد وسائل الاهتمام بالعملاء هي تهنئتهم بالاعياد او المناسبة الرسمية ويكفي ان تقول لهم جمعة مباركة كل اسبوع </td>
+                                    <td>
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    
+                                    <td ><div style="font-weight: bolder;"> أختيار الوان مناسبة للمشروع</div>للالوان دلات ومعاني قيمة واختيار اللون المناسب لمشروعك يحتاج الي فهم طبيعة المشروع </td>
+                                    <td>
+                                        <div class="radio">
+                                            <label><input type="radio" name="optradio"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </form>
                         </tbody>
                     </table>
 
+                    
+                <a href="claim.html" class="view-works" >أمتلك الخدمة</a>
                 <div class="text-center text-white py-4">
                     
                 <div class="ts-social-icons">
                     <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square" style='font-size:30px'></i>
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
-                        <i class="fab fa-instagram"></i>
-                    </a>                                     
+                        <i class="fab fa-instagram" style='font-size:30px'></i>
+                    </a>                               
                     <a href="#" id="linkedin">&nbsp;&nbsp
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" style='font-size:30px'></i>
                     </a>
                     <a href="mailto:accept@gmail.com" id="envelope">&nbsp;&nbsp
-                        <i class="fas fa-envelope-square"></i>
+                        <i class="fas fa-envelope-square" style='font-size:30px'></i>
                     </a>
-                    <a href="#" id="twitter">&nbsp;&nbsp
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                   
                 </div>
                 <!--end social-icons-->                            
             </div>

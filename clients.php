@@ -133,8 +133,8 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <br><br>
                 <div class="text-center">
-                    <a  class="back" href="index.html"> Back</a>
-                    <a  class="back" href="index.html"> Get Quote</a>
+                    <a  class="back" href="english.html"> Back</a>
+                    <a  class="back" href="form.html"> Get Quote</a>
             <!--end container-->
                 </div>
         </section> 

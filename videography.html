@@ -37,7 +37,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
                 <a class="navbar-brand" href="#page-top">
                         <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
                     </a>
@@ -52,99 +52,39 @@ s0.parentNode.insertBefore(s1,s0);
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                            <a class="nav-item nav-link ts-scroll"  href="index.html" style="font-weight: bolder;">Home </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="about-us.php" style="font-weight: bolder;" >About Us</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="services.php" style="font-weight: bolder;" >Our Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="free-services.php" style="font-weight: bolder;">Free Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="form.html" style="font-weight: bolder;">Contact Us</a>
-
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link active ts-scroll"  href="index.html" id="home" style="font-weight: bolder; font-size: 15px">Home </a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="about-us.php" id="aboutus" style="font-weight: bolder; font-size: 15px">About Us</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link active ts-scroll" href="services.php" id="services" style="font-weight: bolder; font-size: 15px">Our Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="free-services.php" id="freeservices" style="font-weight: bolder; font-size: 15px">Free Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="form.html" id="contactnow" style="font-weight: bolder; font-size: 15px">Contact Us</a>
+                        </div>
                             
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="arabic.html" style="font-weight: bolder;">Arabic</a>
+                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">Arabic</a>
                 </div>
                 <!--end container-->
             </nav>
-            <!--end navbar-->
 
             <!--HERO CONTENT ****************************************************************************************-->
             <div class="container align-self-center">
-                <div class="row align-items-center">
-                    <div class="col-sm-9">
+                
+                    <div class="row ">
+                    
+                   
                         
-                        <h1>Videography</h1>
+                        <div class="hero-btn01">
+                        
+                        
                         <!--<a href="#how-it-works" class="btn btn-light btn-lg ts-scroll">Get Quote</a>-->
-                        <button id="myBtn" class="btn btn-primary" data-bg-color="#baca1c" style="font-size: 22px;">Get Quote</button>
-                    <div id="myModal" class="modal">
-
-                        <!-- Modal content -->
-                            <div class="modal-content">
-                                <div class="modal-header" >
-                                    <h2 style="text-align: center;" >Accept</h2>
-                                        <span class="close">&times;</span>
-                                
-                                </div>
-                                <div class="modal-body">
-                                    <div class="col-md-12 ">
-                                
-                                        <p style="font-size: 1rem;"> Discuss Your Project With Us</p>
-                                        <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="assets/php/email.php">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-name">Your Name *</label>
-                                                    <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
-                                                </div>
-                                                 <!--end form-group -->
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-phone">Your Phone *</label>
-                                                    <input type="phone" class="form-control" id="form-contact-phone" name="phone" placeholder="Your Phone number" required>
-                                                </div>
-                                                <!--end form-group -->
-                                            </div>
-                                        </div>
-                                        <!--end col-md-6 col-sm-6 -->
-                                    
-                                        <div class="row">
-                                            <div class="col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-email">Your Email *</label>
-                                                    <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
-                                                </div>
-                                            <!--end form-group -->
-                                            </div>
-                                        <!--end col-md-6 col-sm-6 -->
-                                    
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-message">Your Message *</label>
-                                                    <textarea class="form-control" id="form-contact-message" rows="3" name="message" placeholder="Your Message" required></textarea>
-                                                </div>
-                                            <!--end form-group -->
-                                            </div>
-                                        <!--end col-md-12 -->
-                                        </div>
-                                    
-                                        <div class="form-group clearfix">
-                                            <button type="submit" class="btn btn-primary" id="form-contact-submit">Get Quote</button>
-                                        </div>
-                                        <!--end form-group -->
-                                            <div class="form-contact-status"></div>
-                                        </form>
-                                        <!--end form-contact -->
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <!--end col-sm-9 col-md-9-->
+                        <a  class="temp" href="form.html" data-bg-image="assets/img/button02.png"> Get Quote</a>
+                        
+                   
+                    
+                    
+                </div>
+                <!--end row-->
                     
                 </div>
                 <!--end row-->
@@ -161,8 +101,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         </header>
         <!--end #hero-->
-         <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
-
+         <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
 
             <section id="Who-we-are" class="text-center">
                 <div class="container">
@@ -194,9 +133,7 @@ s0.parentNode.insertBefore(s1,s0);
                             
                             <h3>Promo Video</h3>   
                             <p style="color: #000;">
-                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
+                                The promotional video is a unique way to convey information about your company's products and services in a simplified way. It's a great way to promote your business name and image. With promotional video, you can better reach your customers by viewing the information they need immediately upon their arrival on your site. Studies have shown that video marketing is very successful. Many companies have reported a large gain in website traffic and business in the first month after embedding a video on their website. Instead of spending time researching your products and services, your website visitors will see everything you do and what they need to know in a short 60 second video
                             </p>
                             
                             
@@ -204,7 +141,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <!--end col-xl-7-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-videography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                <img src="assets/img/Promo-Video.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 
                             </div>
                         </div>
@@ -215,7 +152,7 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="row ">
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-videography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                <img src="assets/img/Highlight-video.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 
                             </div>
                         </div>
@@ -224,9 +161,8 @@ s0.parentNode.insertBefore(s1,s0);
                             
                             <h3>Highlight video</h3>   
                             <p style="color: #000;">
-                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
+                                Highlight videos also offer the unique opportunity to communicate with your target audience in a way that connects them with what's truly important to them, while increasing the value of your products and even your brand. You can use video marketing in many different ways, including sales presentations, tutorials, launch sequences on your website, or just to increase brand awareness. The more people see or hear you, the faster they will recognize your brand on the spot. Video can leave an everlasting impression, providing the perfect interactive vehicle for your marketing message, and can help your site rank on Google.
+
                             </p>
                             
                             
@@ -240,9 +176,8 @@ s0.parentNode.insertBefore(s1,s0);
                             
                             <h3>Detail Video</h3>   
                             <p style="color: #000;">
-                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
+                                The most important technique used by most companies is the detailed video with the aim of marketing their business and really bringing more visibility to their products or services. Online marketing is highly competitive these days, a well-crafted detailed video is your first step to show the world exactly what your business can do and who you are. Detailed video production is often considered your business card, as it provides an overview of products or services.
+
                             </p>
                             
                             
@@ -250,7 +185,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <!--end col-xl-7-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-videography.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                <img src="assets/img/Detail-Video.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 
                             </div>
                         </div>
@@ -266,7 +201,7 @@ s0.parentNode.insertBefore(s1,s0);
                 <!--end container-->
             </section>
 
-             <section id="What-We-Do" >
+            <section id="What-We-Do" >
                 <div class="container">
                     <br>
                         <h2>More Services</h2>
@@ -275,7 +210,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="col-sm-6 col-md-4 col-xl-4">
                             <figure data-animate="ts-fadeInUp"> 
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServicesocialmedia.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
                                 <a href="social-media.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Social Media Marketting</a>
                                 
@@ -285,9 +220,9 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="col-sm-6 col-md-4 col-xl-4">
                             <figure data-animate="ts-fadeInUp" data-delay="0.1s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceGraphicDesign.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
-                                <a href="graphic-design.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Graphic Design</a>
+                                <a href="graphic-design.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Graphic Desin</a>
                                 
                             </figure>
                         </div>
@@ -295,7 +230,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
                             <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServicephotography.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
                                 <a href="photography.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Photography</a>
                                 
@@ -309,9 +244,9 @@ s0.parentNode.insertBefore(s1,s0);
                             
                                 <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceDigitalMarketing.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
-                                <a href="content-management.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Content Management</a>
+                                <a href="content-management.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Digital Marketting</a>
                                 
                             </figure>
                                 
@@ -323,7 +258,7 @@ s0.parentNode.insertBefore(s1,s0);
                             
                                  <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceWebsite-Development.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
                                 <a href="website.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Website Development</a>
                                 
@@ -335,7 +270,7 @@ s0.parentNode.insertBefore(s1,s0);
                             
                                  <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceOtherServices.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
                                 <a href="services.php" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Other Services</a>
                                 
@@ -350,24 +285,24 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <!--end container-->
                   <br><br><br>
-                  <div class="text-center text-white py-4">
+                
+                <!--end container-->
+                <div class="text-center text-white py-4">
                     
                 <div class="ts-social-icons">
-                   <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
-                        <i class="fab fa-facebook-square"></i>
+                    <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
+                        <i class="fab fa-facebook-square" style='font-size:30px'></i>
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
-                        <i class="fab fa-instagram"></i>
-                    </a>                                      
+                        <i class="fab fa-instagram" style='font-size:30px'></i>
+                    </a>                               
                     <a href="#" id="linkedin">&nbsp;&nbsp
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" style='font-size:30px'></i>
                     </a>
                     <a href="mailto:accept@gmail.com" id="envelope">&nbsp;&nbsp
-                        <i class="fas fa-envelope-square"></i>
+                        <i class="fas fa-envelope-square" style='font-size:30px'></i>
                     </a>
-                    <a href="#" id="twitter">&nbsp;&nbsp
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                   
                 </div>
                 <!--end social-icons-->                            
             </div>

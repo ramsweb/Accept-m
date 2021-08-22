@@ -37,7 +37,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element ">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
                 <a class="navbar-brand" href="#page-top">
                         <img src="assets/img/logo.png" alt=""><p style="display: inline; font-size: 15px; font-weight: bolder; color:#baca1c">ACCEPT</p>
                     </a>
@@ -52,17 +52,17 @@ s0.parentNode.insertBefore(s1,s0);
                     </button>
                     <!--end navbar-toggler-->
                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        
-                            <a class="nav-item nav-link ts-scroll"  href="index.html" style="font-weight: bolder;">Home </a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="about-us.php" style="font-weight: bolder;" >About Us</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link active ts-scroll" href="services.php" style="font-weight: bolder;" >Our Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="free-services.php" style="font-weight: bolder;">Free Services</a>&nbsp;&nbsp
-                            <a class="nav-item nav-link ts-scroll" href="form.html" style="font-weight: bolder;">Contact Us</a>
-
+                            <div class="nav navbar-nav navbar-center">
+                            <a class="nav-item nav-link active ts-scroll"  href="index.html" id="home" style="font-weight: bolder; font-size: 15px">Home </a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="about-us.php" id="aboutus" style="font-weight: bolder; font-size: 15px">About Us</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link active ts-scroll" href="services.php" id="services" style="font-weight: bolder; font-size: 15px">Our Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="free-services.php" id="freeservices" style="font-weight: bolder; font-size: 15px">Free Services</a>&nbsp;&nbsp
+                            <a class="nav-item nav-link ts-scroll" href="form.html" id="contactnow" style="font-weight: bolder; font-size: 15px">Contact Us</a>
+                        </div>
                             
                     </div>
                     <!--end collapse-->
-                    <a class="nav-item nav-link ts-scroll" href="arabic.html" style="font-weight: bolder;">Arabic</a>
+                    <a class="nav-item nav-link ts-scroll" href="index.html" style="font-weight: bolder;">Arabic</a>
                 </div>
                 <!--end container-->
             </nav>
@@ -70,81 +70,17 @@ s0.parentNode.insertBefore(s1,s0);
 
             <!--HERO CONTENT ****************************************************************************************-->
             <div class="container align-self-center">
-                <div class="row align-items-center">
-                    <div class="col-sm-9">
+                <div class="row ">
+                   
                         
-                        <h1 style="color:#9e9e9e;">Social Media</h1>
+                        <div class="hero-btn01">
+                        
+                        
                         <!--<a href="#how-it-works" class="btn btn-light btn-lg ts-scroll">Get Quote</a>-->
-                        <button id="myBtn" class="btn btn-primary" data-bg-color="#baca1c" style="font-size: 22px;"> Get Qute</button>
-                    <div id="myModal" class="modal">
-
-                        <!-- Modal content -->
-                            <div class="modal-content">
-                                <div class="modal-header" >
-                                    <h2 style="text-align: center;" >Accept</h2>
-                                        <span class="close">&times;</span>
-                                
-                                </div>
-                                <div class="modal-body">
-                                    <div class="col-md-12 ">
-                                
-                                        <p style="font-size: 1rem;"> Discuss Your Project With Us</p>
-                                        <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="assets/php/email.php">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-name">Your Name *</label>
-                                                    <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
-                                                </div>
-                                                 <!--end form-group -->
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label for="form-contact-phone">Your Phone *</label>
-                                                    <input type="phone" class="form-control" id="form-contact-phone" name="phone" placeholder="Your Phone number" required>
-                                                </div>
-                                                <!--end form-group -->
-                                            </div>
-                                        </div>
-                                        <!--end col-md-6 col-sm-6 -->
-                                    
-                                        <div class="row">
-                                            <div class="col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-email">Your Email *</label>
-                                                    <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
-                                                </div>
-                                            <!--end form-group -->
-                                            </div>
-                                        <!--end col-md-6 col-sm-6 -->
-                                    
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="form-contact-message">Your Message *</label>
-                                                    <textarea class="form-control" id="form-contact-message" rows="3" name="message" placeholder="Your Message" required></textarea>
-                                                </div>
-                                            <!--end form-group -->
-                                            </div>
-                                        <!--end col-md-12 -->
-                                        </div>
-                                    
-                                        <div class="form-group clearfix">
-                                            <button type="submit" class="btn btn-primary" id="form-contact-submit">Get Quote</button>
-                                        </div>
-                                        <!--end form-group -->
-                                            <div class="form-contact-status"></div>
-                                        </form>
-                                        <!--end form-contact -->
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <!--end col-sm-9 col-md-9-->
+                        <a  class="temp" href="form.html" data-bg-image="assets/img/button02.png"> Get Quote</a>
+                        
+                   
+                    
                     
                 </div>
                 <!--end row-->
@@ -161,28 +97,8 @@ s0.parentNode.insertBefore(s1,s0);
 
         </header>
         <!--end #hero-->
-         <main id="ts-content" data-bg-image="assets/img/BACKGROUND6.jpg" >
+         <main id="ts-content" data-bg-image="assets/img/BACKGROUND2.jpg" >
 
-
-            <section id="Who-we-are" class="text-center">
-                <div class="container">
-                    <br>
-                        <h2>Social Media</h2>
-                    
-                    <div class="about">
-                        
-                            
-                                <p style="color: #000;">
-                                    We utilize social networking sites like Facebook, Twitter, linkedln and other popular social sites with real targeted records and tons of traffic each day as the most befitting medium of intimating the web audience about your services or products. We also utilize other social interactive platforms such as social forums, blogs discussion forums, question-answer forums, and review websites to help businesses derive a genuine online presence.
-
-                                </p>
-                           
-                    </div>
-                    
-                </div>
-                <!--end container-->
-            </section>
-            <!--END HOW IT WORKS ************************************************************************************-->
 
             <section id="how-we-work" >
               
@@ -192,11 +108,9 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="row ">
                         <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
                             
-                            <h3>How It Works</h3>   
+                            <h3>1. Account Management</h3>   
                             <p style="color: #000;">
-                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
+                                We have experienced motion graphics experts at Accept digital agency who will deliver the best motion graphics with the right finishing touches and a professionally styled presentation to reach your target audience and bring you the results you want. Furthermore, the creative content of the video matches the market trends in order to provide the right format for your company. This is the main reason why you should use the Accept digital agency for your first-class motion graphics service.
                             </p>
                             
                             
@@ -204,7 +118,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <!--end col-xl-7-->
                         <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
                             <div class="px-3">
-                                <img src="assets/img/accept-social-media.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                <img src="assets/img/Social-Media-detail.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 
                             </div>
                         </div>
@@ -212,13 +126,37 @@ s0.parentNode.insertBefore(s1,s0);
                         
                     </div>
                     <br>
+                    <div class="row ">
+                        <div class="col-md-7 col-xl-7 text-center service01" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
+                            <div class="px-3">
+                                <img src="assets/img/social-media.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                
+                                
+                            </div>
+                        </div>
+                        <!--end col-xl-5-->
+                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
+                            
+                            <h3>2. Campaigns</h3>   
+                            <p style="color: #000;">
+                                Your website visuals need to be updated always. We're well equipped with the right tools to design eye-catching, call-to-action images for your website. Our skilled graphic designers use compelling visuals to communicate your company message, product and service information. So what are you waiting for? Partner with us today and let's enhance your web presence with our website graphic design capabilities.
+                            </p>
+                            
+                            
+                        </div>
+                        <!--end col-xl-7-->
+                    </div>
                     
+                    <br>
                     <div class="text-center">
-                        <a class="view-works" href="works.php" > View  Our Works</a>
+                        <a class="view-works" href="work.php" > View  Our Works</a>
                     </div>
                 </div>
                 <!--end container-->
             </section>
+            <!--END HOW IT WORKS ************************************************************************************-->
+
+            
 
              <section id="What-We-Do" >
                 <div class="container">
@@ -229,7 +167,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="col-sm-6 col-md-4 col-xl-4">
                             <figure data-animate="ts-fadeInUp"> 
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceGraphicDesign.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
                                 <a href="graphic-design.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Graphic Design</a>
                                 
@@ -239,7 +177,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="col-sm-6 col-md-4 col-xl-4">
                             <figure data-animate="ts-fadeInUp" data-delay="0.1s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServicephotography.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
                                 <a href="photography.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Photography</a>
                                 
@@ -249,7 +187,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
                             <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceVideography.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
                                 <a href="videography.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Videography</a>
                                 
@@ -263,9 +201,9 @@ s0.parentNode.insertBefore(s1,s0);
                             
                                 <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceDigitalMarketing.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
-                                <a href="content-management.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Content Management</a>
+                                <a href="content-management.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Digital Marketting</a>
                                 
                             </figure>
                                 
@@ -273,12 +211,11 @@ s0.parentNode.insertBefore(s1,s0);
                         </div>
                         <!--end col-xl-4-->
                         
-                        
                         <div class="col-md-4">
                             
                                  <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceWebsite-Development.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
                                 <a href="website.html" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Website Development</a>
                                 
@@ -290,7 +227,7 @@ s0.parentNode.insertBefore(s1,s0);
                             
                                  <figure data-animate="ts-fadeInUp" data-delay="0.2s">
                                 <figure >
-                                    <img src="assets/img/img-serv.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                                    <img src="assets/img/MoreServiceOtherServices.png" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
                                 </figure>
                                 <a href="services.php" style="color: grey;font-weight: bolder; font-size: 20px; text-align: center;">Other Services</a>
                                 
@@ -305,24 +242,24 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <!--end container-->
                   <br><br><br>
-                  <div class="text-center text-white py-4">
+                
+                <!--end container-->
+                <div class="text-center text-white py-4">
                     
                 <div class="ts-social-icons">
                     <a href="https://www.facebook.com/Accept4Marketing-101617275558064/" id="facebook">&nbsp;&nbsp
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square" style='font-size:30px'></i>
                     </a>
                     <a href="https://www.instagram.com/accept4marketing/" id="instagram">&nbsp;&nbsp
-                        <i class="fab fa-instagram"></i>
-                    </a>                                         
+                        <i class="fab fa-instagram" style='font-size:30px'></i>
+                    </a>                               
                     <a href="#" id="linkedin">&nbsp;&nbsp
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" style='font-size:30px'></i>
                     </a>
                     <a href="mailto:accept@gmail.com" id="envelope">&nbsp;&nbsp
-                        <i class="fas fa-envelope-square"></i>
+                        <i class="fas fa-envelope-square" style='font-size:30px'></i>
                     </a>
-                    <a href="#" id="twitter">&nbsp;&nbsp
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                   
                 </div>
                 <!--end social-icons-->                            
             </div>
