@@ -37,7 +37,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#233c74">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element " data-bg-color="#87b204">
                 
                 
                 <div class="container">
@@ -109,8 +109,8 @@ s0.parentNode.insertBefore(s1,s0);
                             <form>
                                 <tr >
                                     
-                                    <td ><div style="font-weight: bolder;"> تطوير بايو الحساب</div> البايو هو اول قسم يتم ملاحظته في حسابك وايضا هو المكان 
-                                    الذ تقدم فيه نفسك لجمهورك  المستهدف وهناك انواع للبايو كما ان له قواعد وشروط يتضمنها لذا لا تستخف بهذه 150 حرف.  . </td>
+                                    <td ><div style="font-weight: bolder;float: right;"> تطوير بايو الحساب</div><br><p style="float: right; color: #000;">البايو هو اول قسم يتم ملاحظته في حسابك وايضا هو المكان 
+                                    الذ تقدم فيه نفسك لجمهورك  المستهدف وهناك انواع للبايو كما ان له قواعد وشروط يتضمنها لذا لا تستخف بهذه 150 حرف.  .</p> </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
@@ -119,8 +119,8 @@ s0.parentNode.insertBefore(s1,s0);
                                 </tr>
                                 <tr >
                                     
-                                    <td ><div style="font-weight: bolder;"> كتابة 5 هشتاقات</div>الهاشتاق الصحيح يعتبر وسيلة تسويق مجانية لخدماتك 
-                                    او منتجاتك ف هو يساعد العملاء علي ايجاد حسابك في حالة بحثهم عن أحدي خدماتك او منتجاتك.  </td>
+                                    <td ><div style="font-weight: bolder;float: right;"> كتابة 5 هشتاقات</div><br><p style="float: right; color: #000;">الهاشتاق الصحيح يعتبر وسيلة تسويق مجانية لخدماتك 
+                                    او منتجاتك ف هو يساعد العملاء علي ايجاد حسابك في حالة بحثهم عن أحدي خدماتك او منتجاتك.  </p></td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
@@ -130,7 +130,7 @@ s0.parentNode.insertBefore(s1,s0);
 
                                 <tr>
                                     
-                                    <td ><div style="font-weight: bolder;"> تصميم بوست</div>ان خلال بوستات حساب يقرر الجمهور اما ان يشتري منك الخدمة او لا  </td>
+                                    <td ><div style="font-weight: bolder;float: right;"> تصميم بوست</div><br><p style="float: right; color: #000;">ان خلال بوستات حساب يقرر الجمهور اما ان يشتري منك الخدمة او لا  </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
@@ -140,7 +140,7 @@ s0.parentNode.insertBefore(s1,s0);
 
                                 <tr>
                                     
-                                    <td ><div style="font-weight: bolder;"> كتابة نص منشور</div>لتحصل علي زيادة في مبيعاتك اكتب محتوي يناسب جمهورك المستهدف  </td>
+                                    <td ><div style="font-weight: bolder;float: right;"> كتابة نص منشور</div><br><p style="float: right; color: #000;">لتحصل علي زيادة في مبيعاتك اكتب محتوي يناسب جمهورك المستهدف  </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
@@ -150,7 +150,7 @@ s0.parentNode.insertBefore(s1,s0);
 
                                   <tr>
                                     
-                                    <td ><div style="font-weight: bolder;"> تصميم بطاقة تهنئة</div>لاحد وسائل الاهتمام بالعملاء هي تهنئتهم بالاعياد او المناسبة الرسمية ويكفي ان تقول لهم جمعة مباركة كل اسبوع </td>
+                                    <td ><div style="font-weight: bolder;float: right;"> تصميم بطاقة تهنئة</div><br><p style="float: right; color: #000;">لاحد وسائل الاهتمام بالعملاء هي تهنئتهم بالاعياد او المناسبة الرسمية ويكفي ان تقول لهم جمعة مباركة كل اسبوع </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>
@@ -160,7 +160,7 @@ s0.parentNode.insertBefore(s1,s0);
 
                                 <tr>
                                     
-                                    <td ><div style="font-weight: bolder;"> أختيار الوان مناسبة للمشروع</div>للالوان دلات ومعاني قيمة واختيار اللون المناسب لمشروعك يحتاج الي فهم طبيعة المشروع </td>
+                                    <td ><div style="font-weight: bolder;float: right;"> أختيار الوان مناسبة للمشروع</div><br><p style="float: right; color: #000;">للالوان دلات ومعاني قيمة واختيار اللون المناسب لمشروعك يحتاج الي فهم طبيعة المشروع </td>
                                     <td>
                                         <div class="radio">
                                             <label><input type="radio" name="optradio"></label>

@@ -173,8 +173,8 @@ s0.parentNode.insertBefore(s1,s0);
                             </form>
                         </tbody>
                     </table>
-
-                <a href="claim.html" class="view-works" >Claim Now</a>
+                
+                <a href="claim.html" class="view-works" style="float:right;" >Claim Now</a>
 
                 <div class="text-center text-white py-4">
                     

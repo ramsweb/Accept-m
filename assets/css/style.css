@@ -2520,9 +2520,6 @@ figure.icon {
   color: #233c74;
 }
 
-textarea{
-  float: right;
-}
 
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
     html {
